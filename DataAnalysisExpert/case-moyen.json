@@ -1,0 +1,16 @@
+{
+  "date_realisation": "2025-06-01",
+  "terre_resistance_ohm": 45,
+  "diff_general_present": true,
+  "diff_general_mA": 500,
+  "nombre_diff_30mA": 1,
+  "sdb_presente": true,
+  "sdb_protegee_30mA": true,
+  "sdb_equipotentielle_ok": false,
+  "max_prises_par_circuit": 9,
+  "section_min_detectee_mm2": 2.5,
+  "disjoncteur_max_detecte_A": 20,
+  "borne_ve_presente": true,
+  "type_diff_borne": "INCONNU",
+  "symptomes": ["diff_declenche"]
+}

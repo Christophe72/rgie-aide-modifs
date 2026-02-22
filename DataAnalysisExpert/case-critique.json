@@ -1,0 +1,16 @@
+{
+  "date_realisation": "2025-06-01",
+  "terre_resistance_ohm": 130,
+  "diff_general_present": false,
+  "diff_general_mA": 500,
+  "nombre_diff_30mA": 0,
+  "sdb_presente": true,
+  "sdb_protegee_30mA": false,
+  "sdb_equipotentielle_ok": false,
+  "max_prises_par_circuit": 12,
+  "section_min_detectee_mm2": 1.5,
+  "disjoncteur_max_detecte_A": 25,
+  "borne_ve_presente": true,
+  "type_diff_borne": "AC",
+  "symptomes": ["diff_declenche", "odeur_brule"]
+}

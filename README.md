@@ -12,6 +12,11 @@ Application de **diagnostic électrique intelligent** basée sur le Règlement G
 
 Le moteur évalue les règles réglementaires versionnées selon la date de réalisation de l'installation, identifie les non-conformités, calcule un score de conformité, active des hypothèses de diagnostic probabiliste et génère un plan de correction priorisé.
 
+L'interface propose désormais un **dashboard d'accueil** avec deux entrées:
+
+- `/pedagogique` : mode guidé et explicatif
+- `/strict` : mode orienté conformité/criticité
+
 ---
 
 ## Démarrage rapide
@@ -23,7 +28,10 @@ pnpm dev
 
 Ouvrir [http://localhost:3000](http://localhost:3000).
 
-L'API est disponible à `POST http://localhost:3000/api/rgie/diagnostic`.
+APIs disponibles:
+
+- `POST http://localhost:3000/api/rgie/diagnostic`
+- `POST http://localhost:3000/api/rgie/rephrase`
 
 ---
 
@@ -35,13 +43,17 @@ Le projet suit un pattern **DDD léger + Hexagonal (Ports & Adapters)**. Le doma
 /
 ├── app/
 │   ├── api/rgie/diagnostic/route.ts   ← POST /api/rgie/diagnostic
+│   ├── api/rgie/rephrase/route.ts     ← POST /api/rgie/rephrase
 │   ├── components/
 │   │   ├── DiagnosticForm.tsx          ← Formulaire + résultats (client)
+│   │   ├── DiagnosticPage.tsx          ← Layout partagé des modes
 │   │   └── ThemeToggle.tsx             ← Bouton ☀️/🌙 (client)
 │   ├── providers/
 │   │   └── ThemeProvider.tsx           ← Contexte React dark/light
 │   ├── layout.tsx
-│   ├── page.tsx
+│   ├── page.tsx                         ← Dashboard d'accueil (choix mode)
+│   ├── pedagogique/page.tsx
+│   ├── strict/page.tsx
 │   └── globals.css
 │
 ├── lib/
@@ -67,7 +79,7 @@ Le projet suit un pattern **DDD léger + Hexagonal (Ports & Adapters)**. Le doma
 │       └── nextApiAdapter.ts           ← Factory (injection des dépendances)
 │
 └── resources/rgie/
-    ├── ruleset_2020_2023_2025.json     ← 7 règles RGIE versionnées
+  ├── ruleset_2020_2023_2025.json     ← 15 règles RGIE versionnées
     ├── hypotheses.json                 ← 4 hypothèses de diagnostic
     └── question_bank.json              ← 9 questions de suivi
 ```
@@ -122,10 +134,19 @@ Tous les champs sauf `date_realisation` sont optionnels. Les champs absents ne d
     }
   ],
   "questions_suivantes": [
-    { "id": "Q_DIFF_01", "texte": "Le différentiel déclenche-t-il immédiatement ?", "type": "OUI_NON" }
+    {
+      "id": "Q_DIFF_01",
+      "texte": "Le différentiel déclenche-t-il immédiatement ?",
+      "type": "OUI_NON"
+    }
   ],
   "plan_correction": [
-    { "priorite": 1, "action": "Remplacer le disjoncteur…", "origine": "RGIE", "refs": ["CABLE-001"] }
+    {
+      "priorite": 1,
+      "action": "Remplacer le disjoncteur…",
+      "origine": "RGIE",
+      "refs": ["CABLE-001"]
+    }
   ]
 }
 ```
@@ -138,17 +159,61 @@ Tous les champs sauf `date_realisation` sont optionnels. Les champs absents ne d
 
 ---
 
+## API — `POST /api/rgie/rephrase`
+
+Endpoint de reformulation des sections explicatives (non-conformités et causes probables).
+
+### Requête
+
+```json
+{
+  "text": "La résistance de terre dépasse 30 Ω, ce qui compromet la protection des personnes.",
+  "context": "non-conformite"
+}
+```
+
+### Réponse (200 OK)
+
+```json
+{
+  "rephrased": "En clair : la terre est trop élevée, la protection des personnes est moins fiable.",
+  "provider": "openai"
+}
+```
+
+`provider` vaut:
+
+- `openai` si une clé API est configurée
+- `local` sinon (fallback local automatique)
+
+### Variables d'environnement
+
+```bash
+OPENAI_API_KEY=...
+OPENAI_MODEL=gpt-4.1-mini
+```
+
+---
+
 ## Règles RGIE versionnées
 
-| Code | Niveau | Applicable depuis | Condition |
-|---|---|---|---|
-| `DIFF-GENERAL-001` | BLOQUANT | toujours | Différentiel général absent |
-| `CABLE-001` | BLOQUANT | toujours | Section ≤ 1,5 mm² + disjoncteur > 16 A |
-| `SDB-030-2025` | BLOQUANT | 2025-03-01 | SDB présente sans diff. 30 mA dédié |
-| `TERRE-001` | MAJEUR | toujours | Résistance de terre > 30 Ω |
-| `SDB-EQUI-001` | MAJEUR | toujours | Équipotentialité SDB absente |
-| `PRISES-2023` | MAJEUR | 2023-06-01 | Plus de 8 prises par circuit |
-| `VE-001` | MAJEUR | toujours | Borne VE avec diff. type AC |
+| Code               | Niveau        | Applicable depuis | Condition                                          |
+| ------------------ | ------------- | ----------------- | -------------------------------------------------- |
+| `DIFF-GENERAL-001` | BLOQUANT      | toujours          | Différentiel général absent                        |
+| `SDB-030-2025`     | BLOQUANT      | 2025-03-01        | SDB présente sans diff. 30 mA dédié                |
+| `CABLE-001`        | BLOQUANT      | toujours          | Section ≤ 1,5 mm² + disjoncteur > 16 A             |
+| `TERRE-002`        | BLOQUANT      | toujours          | Résistance de terre > 100 Ω                        |
+| `CABLE-002`        | BLOQUANT      | toujours          | Section ≤ 2,5 mm² + disjoncteur > 20 A             |
+| `CABLE-003`        | BLOQUANT      | toujours          | Section ≤ 4 mm² + disjoncteur > 25 A               |
+| `CABLE-004`        | BLOQUANT      | toujours          | Section ≤ 6 mm² + disjoncteur > 40 A               |
+| `SDB-EQUI-001`     | MAJEUR        | toujours          | Équipotentialité SDB absente                       |
+| `TERRE-001`        | MAJEUR        | toujours          | 30 Ω < résistance de terre ≤ 100 Ω                 |
+| `PRISES-2023`      | MAJEUR        | 2023-06-01        | Plus de 8 prises par circuit                       |
+| `VE-001`           | MAJEUR        | toujours          | Borne VE avec diff. type AC                        |
+| `DIFF-GENERAL-002` | MAJEUR        | toujours          | Différentiel général > 300 mA                      |
+| `DIFF-TERRE-001`   | MAJEUR        | toujours          | Terre > 30 Ω avec renfort diff. insuffisant        |
+| `DIFF-30MA-001`    | AVERTISSEMENT | toujours          | Absence de diff. 30 mA subordonné (selon contexte) |
+| `VE-002`           | AVERTISSEMENT | toujours          | Type de différentiel VE inconnu                    |
 
 **Ajouter une règle** : éditer uniquement `resources/rgie/ruleset_2020_2023_2025.json`, aucun code à modifier.
 
@@ -163,6 +228,7 @@ P = sigmoid(Σ déclencheurs − seuil_activation)
 ```
 
 Où les déclencheurs sont :
+
 - **erreurs RGIE** détectées (poids défaut : 3)
 - **symptômes** déclarés par l'utilisateur (poids défaut : 2)
 
@@ -174,10 +240,10 @@ Les hypothèses avec `P ≥ 0.35` sont retournées (top 3, triées par probabili
 
 ## Politiques (Strategy pattern)
 
-| Politique | Classe | Comportement |
-|---|---|---|
-| **Scoring** | `DefaultScoringPolicy` | `100 − (bloquants×20) − (majeurs×8) − (avertissements×2)`, clampé 0–100 |
-| **Risque** | `DefaultRiskPolicy` | ≥2 bloquants → CRITIQUE · 1 bloquant → ELEVÉ · ≥2 majeurs → MOYEN · sinon → FAIBLE |
+| Politique   | Classe                 | Comportement                                                                       |
+| ----------- | ---------------------- | ---------------------------------------------------------------------------------- |
+| **Scoring** | `DefaultScoringPolicy` | `100 − (bloquants×20) − (majeurs×8) − (avertissements×2)`, clampé 0–100            |
+| **Risque**  | `DefaultRiskPolicy`    | ≥2 bloquants → CRITIQUE · 1 bloquant → ELEVÉ · ≥2 majeurs → MOYEN · sinon → FAIBLE |
 
 ---
 
@@ -193,7 +259,7 @@ Les conditions sont des arbres d'expressions JSON, évaluées par un interpréte
   "op": "AND",
   "exprs": [
     { "op": "LTE", "path": "section_min_detectee_mm2", "value": 1.5 },
-    { "op": "GT",  "path": "disjoncteur_max_detecte_A", "value": 16 }
+    { "op": "GT", "path": "disjoncteur_max_detecte_A", "value": 16 }
   ]
 }
 ```
@@ -212,14 +278,14 @@ Un champ absent dans l'input → la règle n'est pas déclenchée (pas de crash)
 
 ## Valeurs normalisées du formulaire
 
-| Champ | Valeurs / Pas |
-|---|---|
-| Résistance de terre | Continu, pas 1 Ω |
-| Calibre diff. général | 30 · 100 · 300 · 500 mA |
-| Section câble | 0,75 · 1,5 · 2,5 · 4 · 6 · 10 · 16 · 25 · 35 · 50 mm² |
-| Calibre disjoncteur | 2 · 4 · 6 · 10 · 16 · 20 · 25 · 32 · 40 · 50 · 63 A |
-| Prises / circuit | Continu, pas 1 |
-| Nombre diff. 30 mA | Continu, pas 1 |
+| Champ                 | Valeurs / Pas                                         |
+| --------------------- | ----------------------------------------------------- |
+| Résistance de terre   | Continu, pas 1 Ω                                      |
+| Calibre diff. général | 30 · 100 · 300 · 500 mA                               |
+| Section câble         | 0,75 · 1,5 · 2,5 · 4 · 6 · 10 · 16 · 25 · 35 · 50 mm² |
+| Calibre disjoncteur   | 2 · 4 · 6 · 10 · 16 · 20 · 25 · 32 · 40 · 50 · 63 A   |
+| Prises / circuit      | Continu, pas 1                                        |
+| Nombre diff. 30 mA    | Continu, pas 1                                        |
 
 ---
 
@@ -235,10 +301,10 @@ vercel deploy
 
 ## Évolution
 
-| Objectif | Action |
-|---|---|
-| Nouvelle règle RGIE | Ajouter un objet dans `ruleset_2020_2023_2025.json` |
-| Nouvelle hypothèse | Ajouter un objet dans `hypotheses.json` |
-| Nouvelle question | Ajouter une entrée dans `question_bank.json` |
-| Scoring différent | Implémenter `ScoringPolicy` et l'injecter dans `DiagnosticUseCase` |
+| Objectif             | Action                                                             |
+| -------------------- | ------------------------------------------------------------------ |
+| Nouvelle règle RGIE  | Ajouter un objet dans `ruleset_2020_2023_2025.json`                |
+| Nouvelle hypothèse   | Ajouter un objet dans `hypotheses.json`                            |
+| Nouvelle question    | Ajouter une entrée dans `question_bank.json`                       |
+| Scoring différent    | Implémenter `ScoringPolicy` et l'injecter dans `DiagnosticUseCase` |
 | Source de données DB | Implémenter `RuleRepository` et remplacer dans `nextApiAdapter.ts` |

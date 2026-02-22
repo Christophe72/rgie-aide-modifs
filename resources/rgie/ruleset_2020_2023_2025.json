@@ -8,7 +8,7 @@
       "if": {
         "op": "AND",
         "exprs": [
-          { "op": "EQ", "path": "sdb_presente",      "value": true  },
+          { "op": "EQ", "path": "sdb_presente", "value": true },
           { "op": "EQ", "path": "sdb_protegee_30mA", "value": false }
         ]
       },
@@ -23,8 +23,8 @@
       "if": {
         "op": "AND",
         "exprs": [
-          { "op": "EQ", "path": "sdb_presente",             "value": true  },
-          { "op": "EQ", "path": "sdb_equipotentielle_ok",   "value": false }
+          { "op": "EQ", "path": "sdb_presente", "value": true },
+          { "op": "EQ", "path": "sdb_equipotentielle_ok", "value": false }
         ]
       },
       "niveau": "MAJEUR",
@@ -36,9 +36,11 @@
       "code": "TERRE-001",
       "titre": "Résistance de terre trop élevée (> 30 Ω)",
       "if": {
-        "op": "GT",
-        "path": "terre_resistance_ohm",
-        "value": 30
+        "op": "AND",
+        "exprs": [
+          { "op": "GT", "path": "terre_resistance_ohm", "value": 30 },
+          { "op": "LTE", "path": "terre_resistance_ohm", "value": 100 }
+        ]
       },
       "niveau": "MAJEUR",
       "message": "La résistance de terre dépasse 30 Ω, ce qui compromet la protection des personnes par coupure automatique (RGIE art. 5.4.3.1).",
@@ -51,8 +53,8 @@
       "if": {
         "op": "AND",
         "exprs": [
-          { "op": "LTE", "path": "section_min_detectee_mm2",   "value": 1.5 },
-          { "op": "GT",  "path": "disjoncteur_max_detecte_A",  "value": 16  }
+          { "op": "LTE", "path": "section_min_detectee_mm2", "value": 1.5 },
+          { "op": "GT", "path": "disjoncteur_max_detecte_A", "value": 16 }
         ]
       },
       "niveau": "BLOQUANT",
@@ -81,7 +83,7 @@
         "op": "AND",
         "exprs": [
           { "op": "EQ", "path": "borne_ve_presente", "value": true },
-          { "op": "EQ", "path": "type_diff_borne",   "value": "AC" }
+          { "op": "EQ", "path": "type_diff_borne", "value": "AC" }
         ]
       },
       "niveau": "MAJEUR",
@@ -101,6 +103,135 @@
       "message": "Aucun différentiel général n'est présent en tête de tableau (RGIE art. 7.1.3).",
       "correction": "Installer un différentiel général 300 mA (ou 500 mA) en tête de tableau électrique.",
       "tags": ["DIFF_GENERAL", "PROTECTION"]
+    },
+    {
+      "code": "TERRE-002",
+      "titre": "Résistance de terre hors limite (> 100 Ω)",
+      "if": {
+        "op": "GT",
+        "path": "terre_resistance_ohm",
+        "value": 100
+      },
+      "niveau": "BLOQUANT",
+      "message": "La résistance de dispersion de la prise de terre dépasse 100 Ω, ce qui rend la protection insuffisante.",
+      "correction": "Reconcevoir/améliorer la prise de terre (boucle de fondation, piquets supplémentaires, amélioration des liaisons) pour revenir sous 100 Ω et viser ≤ 30 Ω.",
+      "tags": ["TERRE", "BLOQUANT", "PROTECTION"]
+    },
+    {
+      "code": "DIFF-GENERAL-002",
+      "titre": "Différentiel général trop peu sensible (> 300 mA)",
+      "if": {
+        "op": "AND",
+        "exprs": [
+          { "op": "EQ", "path": "diff_general_present", "value": true },
+          { "op": "GT", "path": "diff_general_mA", "value": 300 }
+        ]
+      },
+      "niveau": "MAJEUR",
+      "message": "Le différentiel général dépasse 300 mA; la sensibilité maximale recommandée/attendue en tête d'installation domestique est 300 mA.",
+      "correction": "Installer un différentiel général de 300 mA maximum, avec intensité nominale adaptée (au moins 40 A selon l'installation).",
+      "tags": ["DIFF_GENERAL", "SENSIBILITE", "PROTECTION"]
+    },
+    {
+      "code": "DIFF-30MA-001",
+      "titre": "Absence de différentiel(s) 30 mA subordonné(s)",
+      "if": {
+        "op": "AND",
+        "exprs": [
+          { "op": "EQ", "path": "diff_general_present", "value": true },
+          {
+            "op": "OR",
+            "exprs": [
+              { "op": "EQ", "path": "sdb_presente", "value": true },
+              { "op": "GT", "path": "max_prises_par_circuit", "value": 0 }
+            ]
+          },
+          { "op": "LT", "path": "nombre_diff_30mA", "value": 1 }
+        ]
+      },
+      "niveau": "AVERTISSEMENT",
+      "message": "Aucun différentiel 30 mA subordonné détecté alors qu'il est requis pour des circuits domestiques usuels (locaux d'eau, prises, éclairage selon configuration).",
+      "correction": "Ajouter au moins un différentiel 30 mA subordonné et répartir les circuits conformément au RGIE.",
+      "tags": ["DIFF_30MA", "PROTECTION", "CIRCUITS"]
+    },
+    {
+      "code": "DIFF-TERRE-001",
+      "titre": "Terre > 30 Ω sans renfort différentiel suffisant",
+      "if": {
+        "op": "AND",
+        "exprs": [
+          { "op": "GT", "path": "terre_resistance_ohm", "value": 30 },
+          { "op": "LTE", "path": "terre_resistance_ohm", "value": 100 },
+          { "op": "LT", "path": "nombre_diff_30mA", "value": 2 }
+        ]
+      },
+      "niveau": "MAJEUR",
+      "message": "Pour une résistance de terre comprise entre 30 Ω et 100 Ω, des protections différentielles subordonnées renforcées sont nécessaires.",
+      "correction": "Prévoir au moins deux différentiels subordonnés adaptés (30 mA / 100 mA selon les groupes de circuits) ou améliorer la terre pour revenir à ≤ 30 Ω.",
+      "tags": ["TERRE", "DIFF", "PROTECTION"]
+    },
+    {
+      "code": "CABLE-002",
+      "titre": "Section 2,5 mm² surprotégée (> 20 A)",
+      "if": {
+        "op": "AND",
+        "exprs": [
+          { "op": "GT", "path": "section_min_detectee_mm2", "value": 1.5 },
+          { "op": "LTE", "path": "section_min_detectee_mm2", "value": 2.5 },
+          { "op": "GT", "path": "disjoncteur_max_detecte_A", "value": 20 }
+        ]
+      },
+      "niveau": "BLOQUANT",
+      "message": "Un conducteur de section 2,5 mm² est protégé par un calibre supérieur à 20 A, ce qui augmente le risque d'échauffement et d'incendie.",
+      "correction": "Limiter le disjoncteur à 20 A maximum pour du 2,5 mm², ou augmenter la section du conducteur.",
+      "tags": ["CABLE", "SURPROTECTION", "INCENDIE"]
+    },
+    {
+      "code": "CABLE-003",
+      "titre": "Section 4 mm² surprotégée (> 25 A)",
+      "if": {
+        "op": "AND",
+        "exprs": [
+          { "op": "GT", "path": "section_min_detectee_mm2", "value": 2.5 },
+          { "op": "LTE", "path": "section_min_detectee_mm2", "value": 4 },
+          { "op": "GT", "path": "disjoncteur_max_detecte_A", "value": 25 }
+        ]
+      },
+      "niveau": "BLOQUANT",
+      "message": "Un conducteur de section 4 mm² est protégé par un calibre supérieur à 25 A.",
+      "correction": "Limiter le disjoncteur à 25 A maximum pour du 4 mm², ou recâbler avec une section supérieure.",
+      "tags": ["CABLE", "SURPROTECTION", "INCENDIE"]
+    },
+    {
+      "code": "CABLE-004",
+      "titre": "Section 6 mm² surprotégée (> 40 A)",
+      "if": {
+        "op": "AND",
+        "exprs": [
+          { "op": "GT", "path": "section_min_detectee_mm2", "value": 4 },
+          { "op": "LTE", "path": "section_min_detectee_mm2", "value": 6 },
+          { "op": "GT", "path": "disjoncteur_max_detecte_A", "value": 40 }
+        ]
+      },
+      "niveau": "BLOQUANT",
+      "message": "Un conducteur de section 6 mm² est protégé par un calibre supérieur à 40 A.",
+      "correction": "Limiter le disjoncteur à 40 A maximum pour du 6 mm², ou augmenter la section du câble.",
+      "tags": ["CABLE", "SURPROTECTION", "INCENDIE"]
+    },
+    {
+      "code": "VE-002",
+      "titre": "Type de protection différentielle VE inconnu",
+      "if": {
+        "op": "AND",
+        "exprs": [
+          { "op": "EQ", "path": "borne_ve_presente", "value": true },
+          { "op": "EQ", "path": "type_diff_borne", "value": "INCONNU" }
+        ]
+      },
+      "niveau": "AVERTISSEMENT",
+      "message": "La borne VE est présente, mais le type de différentiel n'est pas connu; la protection contre les courants de défaut continus doit être vérifiée.",
+      "correction": "Vérifier la borne VE et confirmer une protection adaptée (type A avec détection 6 mA DC intégrée ou type B selon le matériel).",
+      "tags": ["VE", "DIFF_TYPE", "VERIFICATION"]
     }
   ]
 }

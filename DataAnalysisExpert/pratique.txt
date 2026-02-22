@@ -1,0 +1,1809 @@
+
+
+===== PAGE 1 =====
+
+   
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Guide pratique 
+ 
+Installations électriques 
+domestiques 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+asbl 
+Organisme de contrôle agréé 
+Meensesteenweg 338, 8800 Roeselare  www.acavzw.be 
+T 065 33 49 79  F 065 33 66 29  info@acavzw.be 
+ 
+ 
+ 
+Version mars 2025 
+
+
+===== PAGE 2 =====
+
+  
+2 
+Table de matières 
+1. Introduction ............................................................................................................................................ 4 
+1.1 Sécurité dans l’installation électrique ......................................................................................... 4 
+1.2 Réglementation ............................................................................................................................ 4 
+1.3 Contrôle technique ....................................................................................................................... 4 
+2. L’installation de mise à la terre ............................................................................................................. 5 
+2.1 Prise de terre ................................................................................................................................. 5 
+2.2 Prise de terre commune .............................................................................................................. 6 
+2.3 Résistance de dispersion de la prise de terre ........................................................................... 7 
+2.4 Conducteur de terre ..................................................................................................................... 7 
+2.5 Conducteur principal de protection ............................................................................................ 7 
+2.6 Liaisons équipotentielles principales ......................................................................................... 7 
+2.7 Liaisons équipotentielles supplémentaires ................................................................................ 8 
+2.8 Conducteurs de protection ......................................................................................................... 8 
+2.9 Résumé des sections .................................................................................................................. 8 
+3. T ableau de répartition ............................................................................................................................ 9 
+4. Dispositifs de protection à courant différentiel-résiduel .................................................................. 10 
+4.1 Dispositif de protection à courant différentiel-résiduel général ............................................. 10 
+4.2 Dispositif de protection à courant différentiel-résiduel subordonné (ou 
+« supplémentaire ») ............................................................................................................................... 10 
+4.3 Caractéristiques générales ....................................................................................................... 11 
+4.4 Dispositif de protection à courant différentiel-résiduel sélectif .............................................. 11 
+4.5 Refermeture automatique .......................................................................................................... 11 
+5. Disjoncteurs et fusibles ....................................................................................................................... 12 
+5.1 Intensité nominale maximale vs. section des conducteurs ................................................... 12 
+5.2 Ininterchangéabilité .................................................................................................................... 12 
+5.3 Caractéristiques et raccordement ............................................................................................ 12 
+6. Circuits .................................................................................................................................................. 14 
+6.1 Section minimale ........................................................................................................................ 14 
+6.2 Circuit exclusivement dédié ...................................................................................................... 14 
+6.3 Code de couleurs des conducteurs ......................................................................................... 14 
+6.4 Mode de pose des conducteurs et câbles .............................................................................. 15 
+6.5 Socles de prise de courant, des interrupteurs et des points lumineux ................................ 16 
+6.5.1 Socles de prise de courant ................................................................................................... 16 
+6.5.2 Points lumineux ...................................................................................................................... 16 
+6.6 Sécurité incendie ........................................................................................................................ 16 
+
+===== PAGE 3 =====
+
+   
+ 
+ 
+ 3 
+7. Salles de bains et salles de douches ................................................................................................ 17 
+7.1 Volumes de la salle de bain ...................................................................................................... 17 
+7.2 Matériel électrique autorisé ....................................................................................................... 19 
+7.3 La liaison équipotentielle supplémentaire ............................................................................... 20 
+7.4 Salles de bain (et piscines privées) avant le 01/03/2025 ....................................................... 20 
+7.4.1 Volumes de la salle de bain .................................................................................................. 20 
+7.4.2 Matériel électrique autorisé ................................................................................................... 22 
+8. Installations photovoltaiques .............................................................................................................. 23 
+8.1 Puissance AC maximale ............................................................................................................ 23 
+8.2 Points d’attention et mesures .................................................................................................... 23 
+9. Bornes de charge pour des véhicules électriques routiers ............................................................. 24 
+9.1 Instructions d’installation ........................................................................................................... 24 
+9.2 Courants de défaut CC .............................................................................................................. 24 
+10. Installation de chantier domestique ................................................................................................... 25 
+11. Illuminations temporaires .................................................................................................................... 25 
+12. Schémas de l’installation électrique .................................................................................................. 26 
+13. Schémas – symboles graphiques ..................................................................................................... 28 
+14. Installations électriques domestiques existantes ............................................................................. 31 
+14.1 Dispositions dérogatoires pour des anciennes installations électriques domestiques ...... 31 
+14.2 Dispositions dérogatoires pour des installations électriques domestiques ancien RGIE .. 32 
+14.3 Dispositions dérogatoires pour des installations électriques > 01/06/2020 ....................... 34 
+15. Contrôles obligatoires ......................................................................................................................... 35 
+15.1 Contrôle de conformité avant mise en usage ......................................................................... 35 
+15.2 Visite de contrôle ........................................................................................................................ 35 
+15.3 Visite de contrôle avant tout renforcement de la puissance de raccordement ................... 35 
+15.4 Visite de contrôle d’une unité d’habitation lors de la vente ................................................... 35 
+15.5 Visite de contrôle libre ................................................................................................................ 35 
+16. Devoirs du propriétaire, gestionnaire ou exploitant ......................................................................... 36 
+ 
+  
+
+===== PAGE 4 =====
+
+  
+4 
+1. Introduction 
+1.1 Sécurité dans l’installation électrique 
+Dans la société actuelle, une vie sans électricité est presque impensable. De regarder votre 
+programme préféré sur l’écran du téléviseur à préparer les repas les plus délicieux pour vos invités. 
+Ou peut-être le voyage de vos rêves avec la voiture électrique... Presque tout nécessite de l’énergie 
+électrique. Même dans le sens où une panne de courant temporaire semble nous renvoyer à l’âge de 
+pierre. 
+ 
+Là où les installations électriques étaient encore assez basiques au milieu du siècle dernier, ce n’est 
+certainement plus le cas avec les technologies actuelles. Les concepts de base des installations 
+modernes sont le confort et la facilité d’utilisation, mais également la sécurité et la fiabilité  ! Ces 
+paramètres doivent être pris en compte par les installateurs ou les bricoleurs lors de la conception et 
+de la mise en œuvre de tous les composants de l’installation électrique. 
+ 
+1.2 Réglementation 
+T outes les nouvelles installations et toutes les modifications ou extensions des installations existantes 
+doivent répondre aux exigences du Règlement Général sur les Installations Electrique, ou le RGIE. 
+ 
+Pour des installations électriques domestiques, le RGIE entrait initialement en vigueur le 1er octobre 
+1981. Depuis, bien sûr, de nombreux changements ont été ajoutés. Cependant, le changement le 
+plus important est encore très récent. A partir du 1er juin 2020, une nouvelle version du RGIE 
+s’applique: Livre 1. Il s’agit principalement d’une restructuration complète de l’ancienne version, en 
+tenant compte des évolutions technologiques récentes. 
+ 
+Ce guide pratique vous guidera à travers les principaux concepts et règles qui s’appliquent à une 
+installation électrique domestique, sans entrer dans le détail des nuances et exceptions qui peuvent 
+s’appliquer. Ce document doit être considéré comme un guide et ne remplace en aucun cas les textes 
+légaux du Livre 1. 
+ 
+1.3 Contrôle technique 
+En tant qu’organisme de contrôle agréé et accrédité par Belac, fondé en 2009, ACA asbl a acquis 
+l’expertise nécessaire pour évaluer la sécurité de votre installation électrique domestique et pour 
+effectuer le contrôle technique obligatoire. Vous trouverez plus d’i nformations sur ACA asbl et les 
+services proposés sur le site web: www.acavzw.be. 
+ 
+  
+
+===== PAGE 5 =====
+
+   
+ 
+ 
+ 5 
+2. L’installation de mise à la terre 
+L’installation de mise à la terre consiste en une ou plusieurs prises de terre interconnectées, les conducteurs 
+de terre correspondants et les conducteurs de protection, et constitue dans chaque installation domestique 
+l’une des dispositions les plus importantes pour la protection contre les chocs électriques par contact indirect . 
+ 
+Après tout, il doit être possible d’acheminer en toute sécurité le courant de défaut d’un appareil défectueux à la 
+terre. En cas d’absence ou de mise en œuvre imparfaite de l’installation de mise à la terre, ce courant de défaut 
+ne se drainera pas jusqu’à ce qu’une personne entre en contact avec l’appareil. Le courant de défaut se rendra 
+à la terre à travers cette personne, ce qui peut entraîner une issue fatale. 
+ 
+En plus, il est également très important d’assurer qu’il n’y a pas de différences de potentiel entre plusieurs 
+parties conductrices étrangères, qui peuvent atteindre une valeur dangereuse (c’est -à-dire supérieure à la 
+« tension limite conventionnelle absolue »). Une solution est offerte en interconnectant ces parties. 
+ 
+2.1 Prise de terre 
+Pour tout nouveau bâtiment, dont le fond de fouille des fondations atteint au moins 60  cm, la prise de terre 
+comporte au moins une boucle, 
+• disposée à fond de fouille à la verticale des murs extérieurs, 
+• et qui est constituée soit d’un conducteur plein de section ronde, soit de sept âmes câblées de section 
+ronde, avec une section minimale de 35 mm², 
+• et dont les extrémités (de toutes ses parties constituantes) restent visitables . 
+ 
+Si un boucle de terre ne peut pas être installée, il est fait usage de prises de terre complémentaires : 
+• le conducteur métallique enfoui horizontalement dans le sol; 
+• les barres, piquets ou conducteurs enfoncés verticalement ou obliquement dans le sol. 
+ 
+Pour permettre la mesure de la résistance de dispersion de la prise de terre, il est indispensable de prévoir un 
+sectionneur de terre qui est démontable seulement à l’aide d’un outil. 
+ 
+ 
+ 
+ 
+Boucle de terre 
+Sectionneur de terre 
+min. 60 cm 
+Extrémités de la boucle 
+(placés dans des tuyaux) 
+60 cm 
+150 cm 
+210 cm 
+Barre ou piquet de terre 
+(longueur enfouie en-dessous 
+du niveau -60cm est 
+au moins 150cm) 
+
+===== PAGE 6 =====
+
+  
+6 
+2.2 Prise de terre commune 
+Une prise de terre commune peut être mise en œuvre pour: 
+• tout niveau immeuble à appartements (voir Figure 1); 
+• toute nouvelle construction de plusieurs maisons individuelles ou immeubles à appartements avec des 
+fondations communes (voir Figure 1); 
+• différentes unités d’habitation individuelles situées sur un village de vacances ou un terrain de camping, 
+qui appartiennent au propriétaire du village ou du terrain (voir Figure 2). 
+ 
+Le sectionneur de terre correspondant doit rester accessible à l’ensemble des propriétaires, gestionnaires ou 
+exploitants et à toute personne qui doit exécuter des travaux ou des mesures sur cette prise de terre.  En plus, 
+il doit être repéré de manière du rable et ineffaçable (« Prise de terre commune  + adresses des installations 
+concernées »). 
+ 
+ 
+Figure 1 - Prise de terre commune - Type 1 
+ 
+ 
+Figure 2 - Prise de terre commune - Type 2 
+  
+
+
+===== PAGE 7 =====
+
+   
+ 
+ 
+ 7 
+2.3 Résistance de dispersion de la prise de terre 
+La résistance de dispersion de la prise de terre doit être inférieure à 100 Ω. 
+ 
+Si la résistance de dispersion de la prise de terre est supérieure à 30 Ω, le(s) dispositif(s) de protection à 
+courant différentiel -résiduel habituel(s) (voir 4.2) doi(ven)t – si nécessaire – être complété (s) par quelques 
+dispositifs de protection à courant différentiel-résiduel subordonnés, où: 
+• 1 x 30 mA max. pour chaque groupe de circuits reprenant au maximum 16 socles de prises de courant 
+simples ou multiples. Un appareil fixe ou un ensemble d’appareils fixes commandé par un appareil de 
+manœuvre commun est assimilable à un socle de prise de courant; 
+• 1 x 100 mA max. pour la protection des appareils et machines fixes ou à poste fixe (p.ex. appareils de 
+réfrigération, les cuisinières électriques, les installations de chauffage électrique,…), des socles de 
+prise de courant alimentés par un transformateur de séparation des cir cuits individuel et de tout autre 
+circuit qui en standard (voir 4.2) ne doit pas être protégé par un dispositif de protection à courant 
+différentiel-résiduel subordonné de 30 mA max. 
+Dans cette situation, au moins deux dispositifs de protection à courant différentiel-résiduel subordonnés doivent 
+toujours être présents. 
+ 
+Il est donc pratiquement toujours recommandé (lisez: financièrement moins cher) de prévoir une prise de terre 
+avec une résistance de dispersion inférieure à 30 Ω. 
+ 
+La prise de terre commune a toujours une résistance de dispersion inférieure à 30 Ω. 
+ 
+2.4 Conducteur de terre 
+Le conducteur de terre est le conducteur de protection reliant la borne de terre principale à la prise de terre, le 
+sectionneur de terre éventuel étant considéré comme faisant partie dudit conducteur de terre. Ce conducteur 
+possède une isolation de couleur vert-jaune, et sa section minimale est de 16 mm². 
+ 
+2.5 Conducteur principal de protection 
+Le conducteur principal de protection est le conducteur qui relie d’une part le conducteur de terre et d’autre 
+part les conducteurs de protection des masses. Ce conducteur possède une isolation de couleur vert-jaune, et 
+sa section minimale est calculée comme celle d’un conducteur de protection (voir 2.8). 
+ 
+2.6 Liaisons équipotentielles principales 
+Les liaisons équipotentielles principales réalisent les connexions à la borne principale de terre : 
+• des canalisations principales métalliques d’eau et de gaz; 
+• des canalisations principales métalliques du chauffage central et de climatisation ; 
+• des éléments métalliques fixes et accessibles de la structure de la construction du bâtiment ; 
+• des éléments métalliques d’autres canalisations de toute nature qui peuvent propager un potentiel . 
+ 
+Ces connexions sont effectuées, soit avec un conducteur unique sans interrompre la continuité de ce 
+conducteur, soit avec des conducteurs distincts reliant chaque partie à la borne principale de terre. Les liaisons 
+équipotentielles principales possèdent une isolation de couleur vert -jaune, et leur section minimale est de 
+6 mm². 
+ 
+La connexion elle-même est effectuée de manière correcte à l’aide des colliers de mise à la terre appropriés ou 
+équivalent.  
+
+===== PAGE 8 =====
+
+  
+8 
+2.7 Liaisons équipotentielles supplémentaires 
+Les liaisons équipotentielles supplémentaires réalisent les connexions de toutes les pièces métalliques 
+simultanément accessibles. Dans des installations domestiques, celles -ci sont principalement importantes 
+dans la salle de bain ou la salle de douche. Da ns ces lieux, des liaisons équipotentielles supplémentaires 
+doivent être prévues pour: 
+• toutes les canalisations métalliques non-électriques; 
+• tous les radiateurs alimentés par des canalisations non isolantes; 
+• éventuellement une baignoire en métal; 
+• ... 
+ 
+Les liaisons équipotentielles supplémentaires possèdent une isolation de couleur vert-jaune, et leur section 
+minimale est de 2.5  mm² lorsque les conducteurs sont protégés mécaniquement, ou 4  mm² dans tous les 
+autres cas. 
+ 
+2.8 Conducteurs de protection 
+Les conducteurs de protection dans des installations domestiques: 
+• sont contenus dans les canalisations électriques et doivent être répartis sur l’ensemble de l’installation, 
+notamment pour chaque socle de prise de courant, chaque appareil d’éclairage, chaque appareil à 
+poste fixe,... (à l’exception de celles aboutissant aux interrupteurs, de celles à très basse tension de 
+sécurité et de celles en amont du ou des différentiels généraux); 
+• ont un âme en cuivre et sont pourvus d’une isolation de couleur vert-jaune; 
+• ont une section identique aux conducteurs de phase correspondants dans la canalisation électrique . 
+ 
+2.9 Résumé des sections 
+Conducteur vert-jaune Section minimale(*) 
+Conducteur de terre 16 mm² 
+Conducteur principal de protection 6 mm² (règle générale) 
+Liaisons équipotentielles principales 6 mm² 
+Liaisons équipotentielles supplémentaires  
+• protégé mécaniquement 2.5 mm² 
+• non protégé mécaniquement 4 mm² 
+Conducteur de protection même que conducteur de phase 
+• circuit des socles de prises de courant 2,5 mm² 
+• circuit appareils d’éclairage 1,5 mm² 
+(*) dans la mesure où la section maximale d’un conducteur de phase, 
+présent dans l’installation, est de 16 mm² 
+ 
+  
+
+===== PAGE 9 =====
+
+   
+ 
+ 
+ 9 
+3. Tableau de répartition 
+T ous les dispositifs de protection, modules de commutation et de commande,... doivent être groupés et montés 
+dans un ou plusieurs tableaux de répartition. Ces tableaux: 
+• doivent être de classe I (métallique) ou de classe II (isolant); 
+• doivent être pourvus d’une paroi arrière et d’une porte; 
+• doivent être en matériau incombustible et non-hygroscopique; 
+• doivent offrir une résistance mécanique suffisante; 
+• doivent être facilement accessibles; 
+• doivent être pourvus d’un interrupteur -sectionneur général dont l’intensité nominale est appropriée à 
+l’installation, sans être inférieure à 40A. 
+ 
+Les appareils de protection relatifs à des circuits dont l’énergie est soumise à des tarifs différents (p.ex. tarif 
+jour et nuit) doivent être groupés, soit dans des tableaux de répartition distincts, soit sur des panneaux distincts, 
+écartés les uns des autres de 10 cm au moins. 
+ 
+La tension d’alimentation doit être indiquée clairement sur chaque tableau de répartition. En plus, le tableau de 
+répartition doit être muni du panneau d’avertissement contre les dangers des installations électriques  habituel. 
+  
+
+===== PAGE 10 =====
+
+  
+10 
+4. Dispositifs de protection à courant différentiel-résiduel 
+Les dispositifs de protection à courant différentiel-résiduel sont – en plus de l’installation de mise à la terre – le 
+deuxième maillon important de la protection contre les chocs électriques par contacts indirects. Après tout, un 
+courant de défaut circulant vers la terre est détecté par le dispositif de protection à courant différentiel-résiduel. 
+Si le courant de défaut dépasse le courant de fonctionnement nominal du dispositif de protection à courant 
+différentiel-résiduel, cela entraînera le déclenchement  du dispositif, avant de graves conséquences telles que 
+l’électrisation, l’incendie ou toute perte d’énergie se manifestent. 
+ 
+4.1 Dispositif de protection à courant différentiel-résiduel général 
+Au moins un dispositif de protection à courant différentiel-résiduel doit être placé à l’origine de l’installation. Ce 
+dispositif de protection a les caractéristiques suivantes: 
+• un courant de fonctionnement ne dépassant pas 300 mA; 
+• une intensité nominale d’au moins 40 A; 
+• au moins plombable aux bornes d’entrée. 
+ 
+4.2 Dispositif de protection à courant différentiel-résiduel subordonné (ou « sup-
+plémentaire ») 
+Au moins un dispositif de protection à courant différentiel-résiduel doit être placé pour : 
+• les lieux contenant une baignoire et/ou une douche; 
+• les lave-linges, les sèche-linges et les lave-vaisselles; 
+• l’éclairage; 
+• les socles de prise de courant non destinés à l’alimentation des appareils et machines fixes ou à poste 
+fixe, 
+où un maximum de 8 circuits terminaux est autorisé par dispositif de protection à courant différentiel-résiduel. 
+ 
+Ce dispositif de protection a les caractéristiques suivantes: 
+• subordonné au(x) dispositif(s) de protection à courant différentiel-résiduel général(généraux); 
+• un courant de fonctionnement ne dépassant pas 30 mA; 
+• une intensité nominale appropriée à l’installation. 
+ 
+Le dispositif de protection à courant différentiel -résiduel protégeant la salle de bain ou la salle de douche doit 
+être installé en dehors de cette pièce. 
+ 
+Les circuits des panneaux et canalisations chauffantes noyées dans le sol ou dans un matériau doivent être 
+protégés par un dispositif de protection à courant différentiel -résiduel d’un courant de fonctionnement ne 
+dépassant pas 100 mA, dans la mesure où ces installations ne sont pas alimentées à très basse tension de 
+sécurité inférieure ou égale à 25V AC. 
+ 
+Si la résistance de dispersion de la prise de terre est supérieure à 30 Ω, plusieurs dispositifs de protection à 
+courant différentiel-résiduels supplémentaires doivent être prévus, voir 2.3. 
+ 
+  
+
+===== PAGE 11 =====
+
+   
+ 
+ 
+ 11 
+4.3 Caractéristiques générales 
+Dans des installations électriques domestiques, le dispositif de protection à courant différentiel-résiduel doit: 
+• être au moins du type A; 
+• être installé dans des lieux sûrs et secs; 
+• assurer la coupure de tous les conducteurs actifs; 
+• porter le marquage spécifique « 3000A, 22,5kA²s », pour autant que l’intensité nominale est inférieure 
+ou égale à 40 A; 
+• comprendre un bouton test facilement accessible en toute sécurité . 
+ 
+Lors du choix d’un dispositif de protection à courant différentiel -résiduel, l’attention nécessaire doit être portée 
+aux possibles composantes de courant continu dans les courants de défaut (p.ex. provenant des bornes de 
+charge pour des véhicules électriques routiers, voir  9.2). Après tout, le fonctionnement correct doit être garanti 
+en permanence. Dans certains cas un dispositif de protection à courant différentiel -résiduel de type B sera 
+nécessaire, dans d’autres cas un dispositif de détection de courant continu résiduel de 6mA  provoquant le 
+déclenchement de l’équipement électrique suffira. 
+ 
+Il est interdit de compromettre la sécurité qu’offre un dispositif de protection à courant différentiel -résiduel, 
+notamment en pontant ce dispositif par une liaison entre ses bornes d’entrée et ses bornes de sortie. 
+ 
+4.4 Dispositif de protection à courant différentiel-résiduel sélectif 
+L’utilisation des dispositifs de protection à courant différentiel -résiduel sélectifs (ou temporisés) est autorisée 
+dans des installations électriques domestiques, sauf pour la protection des circuits des salles de bain et salles 
+de douche et des lave-linges, sèche-linges et lave-vaisselles. 
+ 
+4.5 Refermeture automatique 
+Des dispositifs à refermeture automatique peuvent être couplés à un dispositif de protection à courant 
+différentiel-résiduel. Les exigences spéciales suivantes doivent être respectées : 
+• le dispositif doit pouvoir être neutralisé, avec signalisation claire de son état; 
+• le dispositif ne peut tenter de refermer que trois fois; 
+• le dispositif ne peut pas posséder de paramètres modifiables par l’utilisateur ; 
+• la refermeture automatique n’est pas autorisée pour le dispositif de protection à courant différentiel -
+résiduel protégeant les circuits des salles de bains et salles de douches et des lave -linges, sèche-
+linges et lave-vaisselles; 
+• la présence d’un dispositif à refermeture automatique doit être mentionnée, dans le tableau de 
+répartition et sur le schéma unifilaire.  
+  
+
+===== PAGE 12 =====
+
+  
+12 
+5. Disjoncteurs et fusibles 
+Les disjoncteurs automatiques (ou disjoncteurs) et les fusibles protègent les canalisations électriques contre 
+les surcharges et le court-circuit. Dans des installations domestiques, seuls les dispositifs de protection suivants 
+sont autorisés: 
+• coupe-circuit à fusibles (à broche); 
+• petits disjoncteurs à broche; 
+• petits disjoncteurs automatiques. 
+ 
+5.1 Intensité nominale maximale vs. section des conducteurs 
+L’intensité nominale maximale des disjoncteurs automatiques ou des fusibles en fonction de la section des 
+conducteurs est indiquée dans le tableau ci-dessous: 
+ 
+Section du 
+conducteur 
+Intensité nominale maximale 
+du disjoncteur 
+Intensité nominale maximale 
+du coupe-circuit à fusible 
+Code de couleur 
+élément de calibrage 
+0,5 mm² 4 A 2 A  
+0,75 mm² 6 A 4 A  
+1 mm² 10 A 6 A Rouge 
+1,5 mm² 16 A 10 A Orange 
+2,5 mm² 20 A 16 A Gris 
+4 mm² 25 A 20 A Bleu 
+6 mm² 40 A 32 A Brun 
+10 mm² 63 A 50 A Vert 
+16 mm² 80  A 63 A  
+25 mm² 100 A 80 A  
+35 mm² 125 A 100 A  
+ 
+5.2 Ininterchangéabilité 
+Les coupe-circuit à fusibles et les petits disjoncteurs à broche sont, par construction, tels que le remplacement 
+d’un élément ne puisse pas se faire au moyen d’un élément dont le courant nominal est plus élevé que celui 
+qui est prévu pour protéger la canalisation électrique. Cela nécessite la présence des él éments de calibrage 
+nécessaires. Pour les fusibles jusqu’à 16 A et pour les disjoncteurs à broche jusqu’à 20 A, il ne s’agit que des 
+éléments qui doivent être encliquetés dans la base. Pour les courants nominaux plus élevés, 
+l’ininterchangéabilité comprend à la fois un élément à encliqueter dans la base et un élément fixé en 
+permanence au dispositif de protection. 
+ 
+5.3 Caractéristiques et raccordement 
+Les dispositifs de protection doivent avoir un pouvoir de coupure correspondant à la puissance de court-circuit 
+présumée à l’endroit de leur installation, avec un minimum de 3000  A. Pour des disjoncteurs automatiques, le 
+pouvoir de coupure est entouré d’un rectangle. 
+ 
+Les disjoncteurs de première ligne en aval du dispositif de protection à courant différentiel-résiduel, doivent être 
+pourvus d’un marquage conforme pour la classe de limitation d’énergie 3.  
+ 
+La liaison entre le dispositif de protection à courant différentiel-résiduel d’une part et les dispositifs de protection 
+contre les surintensités d’autre part, doit être réalisée soit au moyen d’éléments conducteurs rigides, soit au 
+moyen de conducteurs souples pour autant que les brins de chaque extrémité soient solidarisés par un embout 
+serti à l’aide d’un outil approprié ou par tout autre dispositif assurant un résultat au moins équivalent . 
+
+===== PAGE 13 =====
+
+   
+ 
+ 
+ 13 
+  
+
+===== PAGE 14 =====
+
+  
+14 
+6. Circuits 
+L’installation électrique doit être divisée en plusieurs circuits pour limiter les conséquences d’un défaut ainsi 
+que pour faciliter la recherche des défauts, les contrôles et l’entretien. 
+ 
+6.1 Section minimale 
+En général, l’emploi de conducteurs isolés d’une section inférieure à 2,5 mm² est interdite. T outefois, quelques 
+exceptions sont admises: 
+ 
+1,5 mm² Canalisations électriques appartenant à des circuits ne comportant pas de socle de prise 
+de courant, à l’exception d’un seul socle de prise de courant de 2,5  A intégré dans des 
+luminaires. 
+1,0 ou 0,75 mm² Canalisations électriques appartenant à des circuits intégrés dans des tableaux de 
+répartition et de manoeuvre et alimentant un socle de prise de courant simple. 
+0,5 mm² Canalisations électriques appartenant à des circuits de commande, contrôle, 
+signalisation et mesure. 
+ 
+En pratique, les sections suivantes sont appliquées: 
+ 
+2,5 mm² Circuit avec uniquement des socles de prises de courant 
+2,5 mm² Circuit avec des socles de prises de courant et des appareils d’éclairage 
+1,5 mm² Circuit avec uniquement des appareils d’éclairage 
+ 
+6.2 Circuit exclusivement dédié 
+Dans des installations domestiques, les appareils suivants doivent être alimentés par un circuit exclusivement 
+dédié (ces appareils doivent donc chacun être alimentés individuellement via un circuit séparé): 
+• le lave-linge; 
+• le lave-vaisselle; 
+• le sèche-linge; 
+• la cuisinière électrique; 
+• la taque de cuisson électrique; 
+• le four électrique; 
+• les appareils d’un chauffage électrique à poste fixe; 
+• chaque appareil à poste fixe d’une puissance nominale supérieure ou égale à 2600 W ( p.ex. une 
+pompe à chaleur, un chauffe-eau électrique, un four à vapeur,...). 
+ 
+Pour les appareils connectés à un socle de prise de courant standard, le circuit est effectué avec une section 
+de 2,5 mm². Pour les appareils connectés à une boîte de connexion, la section de la canalisation d’alimentation 
+électrique est choisie en fonction de la puissance de l’appareil. 
+ 
+6.3 Code de couleurs des conducteurs 
+Le code de couleur suivant doit être pris en compte: 
+• les conducteurs repérés par la combinaison vert -jaune sont exclusivement réservés aux conducteurs 
+de l’installation de mise à la terre; 
+• l’utilisation des conducteurs isolés à l’aide de matériaux d’isolation solides repérés par la couleur jaune 
+ou verte comme conducteur actif est interdite (sauf pour les conducteurs électriques qui font partie des 
+circuits de commande, contrôle, signalisation et mesure, pour autant que leur section soit inférieure à 
+1,5 mm²); 
+
+===== PAGE 15 =====
+
+   
+ 
+ 
+ 15 
+• le conducteur neutre doit être effectué par un conducteur à isolation bleue, dans la mesure où cette 
+couleur est présente dans la canalisation; 
+• si le circuit contient un conducteur neutre, un conducteur à isolation bleue ne peut pas être utilisé 
+comme conducteur de phase. 
+ 
+La combinaison de couleur de l’isolation est présente sur toute la longueur des conducteurs isolés . 
+ 
+6.4 Mode de pose des conducteurs et câbles 
+Des conducteurs isolés et des câbles peuvent être placés sous conduits. Ceux-ci sont constitués d’un matériau 
+thermoplastique (du type rigide, souple lisse ou annelé) ou sont en acier. La possibilité de tirer ou de retirer les 
+conducteurs ou câbles après la pose des conduits doit être prise en compte, sans blesser l’isolant des 
+conducteurs, notamment à leurs extrémités. 
+ 
+A l’air libre et en montage apparent, seul le placement de câbles est admis, à l’exception des conducteurs de 
+protection indépendants (PE). Cela signifie que des conducteurs isolés (VOB) ne peuvent être utilisés 
+visiblement nulle part. 
+ 
+Des conducteurs isolés peuvent être placés dans des goulottes, à condition que celles-ci sont à parois pleines 
+et munies d’un couvercle, qu’on ne peut ouvrir qu’à l’aide d’un outil.  
+ 
+Seuls des câbles peuvent être placés noyé s sans conduit dans les murs des locaux. Les parcours prescrits 
+doivent être respectés (voir zones grises sur la Figure 3). Les câbles doivent être recouverts d’un enduit de 
+revêtement avec une épaisseur minimale de 4 mm. 
+ 
+ 
+Figure 3 – Parcours prescrits 
+ 
+  
+
+
+===== PAGE 16 =====
+
+  
+16 
+6.5 Socles de prise de courant, des interrupteurs et des points lumineux 
+6.5.1 Socles de prise de courant 
+T ous les socles de prise de courant, à l’exception de ceux à très basse tension de sécurité, doivent comporter 
+un contact de terre relié au conducteur de protection de la canalisation électrique (la terre latérale n’est donc 
+pas autorisée). Ils doivent également avoir un degré de protection d’au moins IPXX -D (du type à « sécurité 
+enfant »), sauf pour les socles de prise de courant placés dans les tableaux de répartition et de manœuvre.  
+ 
+Le nombre de socles de prise de courant simples ou multiples est limité à huit par circuit . 
+ 
+Lorsque les socles de prises de courant sont installés dans des planchers, il est fait usage de modèles spécia-
+lement prévus à cet effet. 
+ 
+Les socles de prises de courant encastrés dans les parois doivent être installés dans des boîtes en métal ou 
+en matière isolante. 
+ 
+6.5.2 Points lumineux 
+Les circuits alimentant les appareils d’éclairage sont au moins au nombre de deux circuits distincts  pour les 
+unités d’habitation qui comprennent plus de deux locaux et/ou emplacements . 
+ 
+Certains circuits peuvent alimenter simultanément des socles de prise de courant ainsi que des appareils 
+d’éclairage, le nombre étant également limité à huit. Chaque groupe des points lumineux actionné par le même 
+interrupteur est assimilé à un socle de prise de courant. 
+ 
+6.6 Sécurité incendie 
+Les conducteurs isolés et les câbles avec (uniquement) les caractéristiques F1 ou F2 ne peuvent pas être 
+placés dans des installations électriques qui sont situées dans les bâtiments. A l’intérieur, les caractéristiques 
+suivantes sont requises: 
+• Eca pour les conducteurs isolés et câbles installés séparément; 
+• Cca pour les conducteurs isolés et câbles installés en faisceaux ou en nappe. 
+  
+
+===== PAGE 17 =====
+
+   
+ 
+ 
+ 17 
+7. Salles de bains et salles de douches 
+La salle de bain ou la salle de douche est un local important dans une installation électrique domestique. La 
+présence d’eau réduit la résistance du corps humain. Il est donc primordial de porter l’attention nécessaire à 
+l’utilisation et l’emplacement des socles de prise de courant, des interrupteurs, des appareils électriques,... et 
+surtout en ce qui concerne la distance par rapport à la baignoire et/ou la douche.  
+ 
+Selon le Livre 1, la salle de bain se limite aux volumes 0, 1 et 2 et le lieu de chaque espace dans lequel au moins 
+une baignoire ou une douche est installée. 
+ 
+7.1 Volumes de la salle de bain 
+L’aménagement standard de la salle de bain dans le cas d’une baignoire est le suivant: 
+ 
+Volume 0 Le volume intérieur de la baignoire 
+Volume 1 Le volume délimité par le plan vertical circonscrit au bord extérieur de la baignoire, délimité 
+au-dessus par le plan horizontal à 2,25 m au -dessus du niveau le plus haut permettant de 
+se déplacer (soit dans la baignoire, soit dans le volume 2 (voir ci-dessous)), y inclus l’espace 
+sous la baignoire, mais y exclus le volume 0 
+Volume 2 Le volume qui est extérieur au volume 1, délimité par le plan vertical situé à une distance de 
+0,60 m de la limite de volume 1, délimité au-dessus par le plan horizontal coïncidant avec 
+celui du volume 1 et au-dessous par le niveau le plus bas permettant de se déplacer  dans 
+une distance de 0,60 m de la limite de volume 1 
+Lieu (L) Le volume délimité par le plan vertical situé à une distance de 4 m à partir des arrivées d’eau 
+fixes, délimité au -dessus par le plan horizontal à 3 m au -dessus du sol fini  et au-dessous 
+par le sol fini (et limité au local dans lequel se trouve la baignoire ou la douche) et où des 
+parois verticales fixes avec une hauteur d’au moins 2,25 m ont un facteur limitant 
+ 
+Sont considérés comme des arrivées d’eau fixes: 
+• soit la sortie du robinet de la baignoire; 
+• soit la sortie de la douche de tête fixe; 
+• soit la sortie du mitigeur ou du robinet sur laquelle le flexible de la douchette est raccordé.  
+ 
+Dans le cas d’une douche, seuls les volumes 0 et 1 et le lieu sont définis: 
+ 
+ Sans receveur de douche ou avec profon-
+deur du receveur de douche < 0,10 m 
+Profondeur du receveur de douche ≥ 0,10 m 
+Volume 0 Le volume délimité par le plan vertical situé à 
+une distance de 1,2 m du centre de chaque 
+arrivée d’eau fixe, délimité au -dessus par le 
+plan horizontal à 0,10 m au -dessus du ni-
+veau le plus haut permettant de se déplacer 
+et au-dessous par le niveau le plus bas per-
+mettant de se déplacer du sol fini ou du re-
+ceveur de douche 
+Le volume intérieur du receveur de douche  
+jusqu’au plan horizontal à 0,10 m au-dessus 
+du niveau le plus haut permettant de se dé-
+placer du receveur de douche 
+Volume 1 Le volume délimité par le plan vertical  situé à une distance de 1,2 m du centre de chaque 
+arrivée d’eau fixe, délimité au-dessus par le plan horizontal à 2,25 m au-dessus du niveau le 
+plus haut permettant de se déplacer du sol fini ou du receveur de douche et au-dessous par 
+le niveau le plus bas permettant de se déplacer du sol fini ou du receveur de douche, y 
+inclus l’espace sous le receveur de douche, mais y exclus le volume 0 
+Lieu (L) Même que dans le cas d’une baignoire 
+ 
+  
+
+===== PAGE 18 =====
+
+  
+18 
+Lors de la détermination des volumes et du lieu, les points d’attention suivants doivent être pris en compte: 
+• un faux plafond qui est ajouré ou qui est démontable sans l’aide d’un outil n’a pas d’influence limitative 
+sur la hauteur des volumes 1 et 2 et du lieu; 
+• si l’arrivée d’eau fixe  est située à plus de 2,25 m au -dessus du niveau le plus haut permettant de se 
+déplacer, le plan horizontal supérieur est élevé jusqu’au niveau de cette arrivée d’eau fixe; 
+• les portes et fenêtres se trouvant dans le lieu sont considérées comme fermées; 
+• les portes et fenêtres se trouvant totalement ou partiellement dans les volumes sont considérées 
+comme ouvertes, à l’exception des portes de douches faisant partie de la douche où la partie inférieure 
+de ces portes soit jointive au niveau inférieur du volume 1; 
+• une paroi fixe a une influence limitative sur la détermination des volumes, où la mise hors de portée  
+autour de ces parois doit être prise en compte; 
+• dans le cas d’une douche située dans le volume 1 d’une baignoire, les volumes définis pour cette 
+baignoire s’appliquent. 
+ 
+Quelques exemples standards (non limitatifs) sont présentés ci-dessous. 
+ 
+ 
+Figure 4 – Baignoire – porte juste à côté de la baignoire, avec paroi vitrée fixe – volume 2 s’étend à l’extérieur du local 
+ 
+ 
+Figure 5 – Douche avec profondeur receveur de douche < 0,10 m – hauteur paroi de douche inférieure à 2,25m 
+ 
+ 
+Figure 6 – Douche à l’italienne – hauteur paroi de douche inférieure à 2,25m 
+ 
+
+
+===== PAGE 19 =====
+
+   
+ 
+ 
+ 19 
+ 
+Figure 7 – Douche à l’italienne – hauteur paroi de douche supérieure à 2,25m 
+ 
+7.2 Matériel électrique autorisé 
+Le matériel électrique autorisé et le degré de protection correspondant dans les différents volumes du lieu 
+contenant une baignoire et/ou une douche sont: 
+ 
+Volume Matériel autorisé Degré IP 
+minimale 
+0 Machines et appareils électriques fixes (y incl. les appareils de commande) 
+à TBTS 12V / 6V (AC) 
+et connectés de façon permanente 
+et conformément aux instructions d’utilisation et de montage du fabri-
+cant dans ce volume 
+ 
+IPX7 / IP00 
+1 Machines et appareils électriques fixes à TBTS 12V / 6V (AC) IPX4 / IP00 
+ Appareils de commande et socles de prise de courant à TBTS IPX4 
+ Machines et appareils électriques fixes à BT 
+si connectés de façon permanente 
+et conformément aux instructions d’utilisation et de montage du fabri-
+cant dans ce volume 
+(y inclus les appareils de commande et socles de prise de courant à 
+TBTS) 
+IPX4 
+2 TBTS 25V / 12V (AC) IPX4 / IP00 
+ Machines et appareils électriques fixes IPX4 
+ Socles de prise de courant à BT 
+• protégés chacun individuellement par un transformateur de sépara-
+tion des circuits d’une puissance maximale de 100 W 
+• protégés par un dispositif de protection à courant différentiel à très 
+haute sensibilité (10 mA) 
+IPXX 
+ Appareils de commande à BT IPX4 
+ 
+L’appareil d’alimentation en très basse tension de sécurité (TBTS) est situé en dehors des volumes 0, 1 et 2. 
+ 
+Les canalisations électriques dans les volumes et le lieu ne peuvent comporter aucun élément métallique (p.ex. 
+armure, conduit en acier,...) autre que leurs âmes. 
+ 
+L’installation dans les volumes 0, 1  et 2 d’un matériel électrique fixe servant à l’alimentation ou la protection 
+d’autres locaux est interdite. Un tableau de répartition peut donc être placé dans le lieu (L), mais le dispositif de 
+protection à courant différentiel -résiduel pour la protection de la salle de bain ne peut pas se trouver dans ce 
+tableau de répartition. 
+ 
+Dans le volume 0, les canalisations électriques sont limitées à celles faisant partie du matériel y autorisé. Dans 
+les volumes 1 et 2, cette restriction concerne les canalisations nécessaires à l’alimentation du matériel électrique 
+situé dans les volumes 0, 1 et 2. 
+ 
+  
+
+
+===== PAGE 20 =====
+
+  
+20 
+En plus, seules les modes de pose suivantes sont permises: 
+ 
+Mode de pose Volume 0 Volumes 1 et 2 
+Encastrée dans les parois (avec ou sans conduits) Autorisée Autorisée 
+Pose à l’air libre ou en montage apparent Non autorisée Autorisée 
+Pose dans les vides de construction Non autorisée Autorisée 
+ 
+7.3 La liaison équipotentielle supplémentaire 
+Une liaison équipotentielle supplémentaire doit être prévue, qui relie localement toutes les masses du matériel 
+électrique et tous les éléments conducteurs étrangers simultanément accessibles, à l’exception: 
+• des masses du matériel électrique alimenté en TBTS; 
+• des canalisations non conductrices d’électricité (p.ex. matière synthétique); 
+• des radiateurs ou convecteurs alimentés par des canalisations non conductrices d’électricité; 
+• des enveloppes métalliques du matériel électrique de classe II ou équivalente. 
+ 
+7.4 Salles de bain (et piscines privées) avant le 01/03/2025 
+7.4.1 Volumes de la salle de bain 
+Les volumes de la salle de bain sont définis comme suit: 
+ 
+Volume 0 Le volume intérieur de la baignoire ou de la cuvette de douche 
+Volume 1 Le volume contenu dans la surface verticale au bord de la baignoire ou de la cuvette de 
+douche, qui est limité en bas par le plan horizontal du sol et en haut par le plan horizontal 
+situé à 2,25m du plan horizontal précédent, et dont sont extraits le volume 0 et 1bis éventuel 
+Volume 1bis Le volume délimité par le paroi extérieure de la baignoire et une structure pleine se raccor-
+dant au bord de la baignoire et rejoignant le sol 
+Volume 2 Le volume qui est extérieur au volume 1 (et 1bis), limité par la surface verticale distante de 
+0,60 m de la limite du volume 1 et par les mêmes plans horizontaux que ceux définis au 
+volume 1 
+Volume 3 Le volume extérieur au volume 2, limité par la surface verticale distante de 2,40 m du volume 
+2 et par les mêmes plans horizontaux que ceux définis au volume 1 (et limité au local conte-
+nant la ou les baignoires ou douches) 
+ 
+La présence de parois fixes ou des éléments de paroi pivotants influence les dimensions des volumes, où il est 
+également tenu compte avec la mise hors de portée autour de ces parois. 
+ 
+Quelques exemples standards (non limitatifs) sont présentés ci-dessous. 
+ 
+ 
+Figure 8 – Baignoire – porte juste à côté de la baignoire – volume 2 s’étend à l’extérieur du local 
+ 
+
+
+===== PAGE 21 =====
+
+   
+ 
+ 
+ 21 
+ 
+Figure 9 – Douche avec cuvette de douche – hauteur paroi de douche inférieure à 2,25m 
+ 
+ 
+ 
+Figure 10 – Douche à l’italienne – hauteur paroi de douche inférieure à 2,25m 
+ 
+ 
+Figure 11 – Douche à l’italienne – hauteur paroi de douche supérieure à 2,25m 
+ 
+Si le fond de la baignoire ou de la cuvette de douche est situé à une hauteur supérieure à 0,15  m du sol de la 
+salle de bain, la hauteur du plan horizontal supérieur est mesurée à partir du fond de la baignoire ou de la 
+cuvette de douche (voir Figure 12). 
+ 
+ 
+ 
+ 
+ 
+Figure 12 – Détermination de la hauteur du plan horizontal supérieur 
+ 
+ 
+h 
+h  0,15 m 
+h > 0,15 m 
+2,25 m 
+2,25 m 
+Sol de la salle de bain 
+
+===== PAGE 22 =====
+
+  
+22 
+7.4.2 Matériel électrique autorisé 
+Le matériel électrique autorisé et le degré de protection correspondant dans les différents volumes de la salle 
+de bain ou de la salle de douche sont: 
+ 
+ 
+Volume Matériel autorisé Degré IP minimal 
+0 Même que dans 7.2  
+ Appareils de commande et éclairages à TBTS 12V / 6V (AC) IPX7 / IP00 
+1 Même que dans 7.2  
+ Appareils de production d’eau chaude sanitaire à poste fixe IPX4 
+1bis TBTS 25V / 12V (AC) IPX4 / IP00 
+ Alimentation d’une baignoire d’hydromassage (y inclus le point d’alimenta-
+tion) 
+Socle de prise de courant à BT comme point d’alimentation 
+IPX4 
+ 
+IPXX 
+2 Même que dans 7.2  
+ 
+L’appareil d’alimentation en très basse tension de sécurité est situé en dehors des volumes 0, 1 et 2 . 
+  
+
+===== PAGE 23 =====
+
+   
+ 
+ 
+ 23 
+8. Installations photovoltaiques 
+Là où l’énergie électrique était auparavant produite de manière centralisée (il suffit de penser aux nombreuses 
+centrales nucléaires et au charbon), de nos jours, l’accent est de plus en plus mis sur la production décentrali-
+sée. L’énergie requise pour un ménage est générée par une unité de production locale, telle qu’une installation 
+avec des panneaux solaires. Certes, avec l’avènement des batteries, une unité d’habitation pratiquement neutre 
+en énergie peut être construite de cette manière. 
+ 
+8.1 Puissance AC maximale 
+Pour une « petite » installation photovoltaique (ou PV), la puissance AC maximale est limitée à 5  kVA pour un 
+raccordement au réseau public monophasé (1 x 230V ou 2 x 230V), et 10 kVA pour un raccordement triphasé  
+(3 x 230V ou 3N400V). Des puissances plus élevées peuvent également être admises, mais cela nécessite 
+une approbation préalable du GRD sous la forme d’une étude de réseau.  
+ 
+En plus, le déséquilibre de production entre deux phases ne peut jamais dépasser 20  A (ou environ 5 kVA). 
+Cela signifie, par exemple, que deux onduleurs d’une puissance de 5  kVA ne peuvent pas être connectés à la 
+même phase en cas d’un raccordement triphasé. 
+ 
+La puissance AC d’une installation PV est déterminée en fonction de la puissance de l’onduleur, et non de la 
+puissance des panneaux. 
+ 
+Dans le cas d’un «  petit » système de batterie, les mêmes puissances AC maximales indiquées ci -dessus 
+s’appliquent. 
+ 
+8.2 Points d’attention et mesures 
+La présence d’une installation PV doit être indiquée avec des panneaux d’avertissement (p.ex. « Installation 
+électrique toujours sous tension » ou « Ne pas déconnecter en charge »). En outre, les conducteurs en courant 
+continu et des conducteurs actifs en courant alternatif de l’installation PV doivent également être repérés. 
+ 
+La structure métallique sur laquelle les panneaux sont montés, doit être mise à la terre par un conducteur de 
+protection dont la section est au moins équivalente à celle du conducteur de protection de l’alimentation AC de 
+l’onduleur, avec au minimum une section égale à 2,5 mm² si il comporte une protection mécanique et 4  mm² 
+si il ne comporte pas de protection mécanique. La mise à la terre de la structure est de préférence faite à la 
+borne principale de terre de l’installation électrique. 
+ 
+L’unité de production décentralisée (installation PV et/ou système de batterie) veille à ce que l’énergie requise 
+ne provienne pas d’une seule source (à savoir le réseau de distribution public), mais de deux sources. Le(s) 
+tableau(x) de répartition de l’installation électrique doi(ven)t bien sûr être adapté(s) à cet effet. A chaque endroit 
+où le courant du réseau et le courant de l’onduleur peuvent circuler dans le même sens, l’intensité nominale 
+doit être adaptée à la somme des deux cour ants. Cela signifie que – lors de l’installation d’une installation PV  
+ou d’un système de batterie  – il peut être nécessaire de modifier le câblage interne du tableau de répartition, 
+les dispositifs de protection à courant différentiel -résiduel subordonnés et les dispositifs de protection des ta-
+bleaux secondaires. 
+  
+
+===== PAGE 24 =====
+
+  
+24 
+9. Bornes de charge pour des véhicules électriques routiers 
+La conduite électrique est l’avenir. Pour participer à l’histoire écologique, l’infrastructure de charge nécessaire 
+doit être fournie. C’est pourquoi de plus en plus d’efforts sont déployés pour installer des bornes de charge 
+fixes, tant par des particuliers que par des entreprises. Naturellement, un certain nombre de dispositions régle-
+mentaires s’y appliquent également. 
+ 
+Une borne de charge contient un ou plusieurs points de connexion par lesquels l’énergie est transmise au 
+véhicule électrique. Dans le cas d’un câble de charge connecté en permanence, ce point de connexion est 
+situé à l’extrémité de ce câble. Dans les insta llations domestiques, dans la plupart des cas, il n’y aura q’une 
+seule borne de charge, avec un seul point de connexion. 
+ 
+9.1 Instructions d’installation 
+Chaque point de connexion doit être alimenté par un circuit exclusivement dédié.  Les dispositifs de protection 
+à placer à cet effet sont situés soit dans la borne de charge, soit dans le coffret de répartition en amont, soit 
+une combinaison des deux. Concrètement, il s’agit: 
+• d’un dispositif de protection à courant différentiel -résiduel individuel d’un courant de fonctionnement 
+ne dépassant pas 30 mA 
+• un dispositif de protection contre les surintensités individuel (disjoncteur) 
+ 
+En plus, les influences externes prévisibles doivent être prises en compte lors de l’installation. A cet égard, une 
+protection contre les contraintes mécaniques doit être assurée dès qu’il existe un risque de collision raisonna-
+blement prévisible. 
+ 
+Les prescriptions du fabricant doivent également toujours être suivies.  
+ 
+9.2 Courants de défaut CC 
+Les bornes de charge semblent être connus pour générer des courants de défaut continues importants. Bien 
+entendu, l’installation en amont, et notamment les dispositifs de protection à courant différentiel -résiduel, doit 
+supporter ces courants de défaut. Un dispositif de protection à courant différentiel-résiduel de type A est garanti 
+pour fonctionner jusqu’à 6mA CC. En cas de courants de défaut CC plus élevés, il est possible qu’ils soit 
+« aveuglé ». 
+ 
+Pour y remédier, il existe plusieurs solutions: 
+• le circuit dédié du point de connexion est équipé d’un dispositif de détection de courant continu résiduel 
+de 6mA provoquant le déclenchement de l’équipement électrique; 
+• le circuit dédié du point de connexion (et les éventuels dispositifs de protection à courant différentiel -
+résiduel en amont) est équipé d’un dispositif de protection à courant différentiel -résiduel de type B. 
+ 
+Dès que plusieurs bornes de charge et/ou plusieurs points de connexion sont prévus, l’effet cumulatif de tous 
+les courants de défaut CC possibles doit être pris en compte.  
+
+===== PAGE 25 =====
+
+   
+ 
+ 
+ 25 
+10. Installation de chantier domestique 
+Une installation de chantier domestique contient:  
+• une prise de terre avec résistance de dispersion inférieure à 30 Ω (voir 2.3); 
+• un sectionneur de terre (voir 2.1) 
+• un tableau de répartition (voir 3), avec 
+o un dispositif de protection à courant différentiel-résiduel général (voir 4.1) 
+o un dispositif de protection à courant différentiel-résiduel subordonné (voir 4.2) 
+o au moins un dispositif de protection contre les surintensités (voir 5.3 et 6.1) 
+• au moins un socle de prise de courant (voir 6.5.1) 
+ 
+Le tableau de répartition doit présenter une stabilité suffisante pour pallier les risques de renversement. En 
+outre, le degré de protection IP doit être suffisant pour l’emplacement du tableau (généralement IPX4).  
+ 
+Une résistance de dispersion de la prise de terre jusqu’à 100 Ω peut être autorisée, à condition que les dispo-
+sitifs de protection à courant différentiel-résiduel subordonnés soient installés (voir 2.3). 
+ 
+11. Illuminations temporaires 
+Il est permis d’utiliser pour des illuminations temporaires des appareils d’illumination composés de lampes avec 
+douille dont le degré de protection contre la pénétration de l’eau est de IPX0. 
+ 
+Ceux-ci sont de préférence installés en dehors du volume d’accessibilité au toucher. Si pas possible, ils doivent: 
+• soit être alimentés à très basse tension de sécurité; 
+• soit être protégés par un dispositif de protection à courant différentiel-résiduel avec un courant de fonc-
+tionnement de 30 mA au maximum. 
+ 
+  
+
+===== PAGE 26 =====
+
+  
+26 
+12. Schémas de l’installation électrique 
+Pour toute installation électrique domestique nouvelle ou pour toute modification ou extension importante d’une 
+installation électrique domestique existante, la ou les personnes qui ont réalisé cette installation doivent en 
+établir les schémas unifilaires et les plans de position . Ces deux documents doivent contenir – en plus de 
+l’adresse de l’installation – les données d’identité de la personne ou de l’entreprise susmentionnée. Les sché-
+mas doivent également être datés et signés par l’installateur de l’installation. Si le contrôle technique résulte à 
+un rapport conforme, l’agent-visiteur signera également ces schémas. 
+ 
+Les schémas unifilaires reprennent au moins: 
+• la tension et la nature des courants; 
+• les caractéristiques des canalisations électriques (type, section, nombre de conducteurs) et leur mode 
+de pose; 
+• le type et les caractéristiques des dispositifs de protection à courant différentiel -résiduel et des dispo-
+sitifs de protection contre les surintensités; 
+• les interrupteurs et les points lumineux; 
+• les socles de prise de courant, les boîtes de connexion et les boîtes de dérivation ; 
+• les machines et appareils fixes; 
+• les sources (transformateur, panneau solaire, onduleur, batterie,…). 
+Chaque circuit élémentaire est identifié par une lettre majuscule de l’alphabet, chaque élément du circuit est 
+identifié par un numéro, donnant l’ordre dans lequel on rencontre ces éléments dans le circuit élémentaire en 
+partant du dispositif de protection contre les surintensités. 
+ 
+Les plans de position indiquent la position: 
+• les tableaux de répartition et de manoeuvre; 
+• les socles de prise de courant, les boîtes de connexion et les boîtes de dérivation ; 
+• les interrupteurs et les points lumineux; 
+• les machines et appareils fixes; 
+• les sources (transformateur, panneau solaire, onduleur, batterie,…). 
+Chaque élément est identifié par la lettre attribuée au circuit élémentaire dans lequel ces éléments sont insérés, 
+suivi par le numéro d’ordre qui est attribué à ces éléments. 
+ 
+ 
+Figure 13 – Exemple d’un schéma unifilaire 
+
+
+===== PAGE 27 =====
+
+   
+ 
+ 
+ 27 
+ 
+ 
+Figure 14 – Exemple d’un plan de position 
+  
+
+
+===== PAGE 28 =====
+
+  
+28 
+13. Schémas – symboles graphiques 
+Généralités 
+ Courant continu 
+ 
+Courant alternatif (général) 
+ 
+Courant alternatif monophasé 
+ 
+Courant alternatif triphasé 
+Appareillages électriques 
+ T ableau de répartition 
+ 
+T ableau de répartition avec 5 
+canalisations électriques 
+ 
+Boîte (général) 
+ Boîte de connexion 
+ 
+Coffret de branchement 
+ Sectionneur de terre 
+Canalisations 
+ Canalisation électrique (général) 
+ 
+Canalisation souterraine 
+ Canalisation aérienne 
+ Canalisation dans un conduit 
+ 
+Exemple: Faisceaux de 6 conduits 
+ 
+Canalisation encastrée dans une 
+paroi 
+ Canalisation apparente posée sur 
+une paroi 
+ Canalisation placée dans un conduit 
+encastré dans une paroi 
+ Deux canalisations électriques 
+ 
+n canalisations électriques 
+ 
+Canalisation à 3 conducteurs 
+ 
+Canalisation à n conducteurs 
+(conducteur N et PE y compris) 
+Exemples: 
+ 
+Câble XVB Cca à 5 conducteurs de 
+4 mm² de section placé dans un 
+tube encastré dans une paroi 
+ 
+Câble XVB Cca à 3 conducteurs de 
+2,5 mm² de section posé en 
+apparent sur une paroi 
+ 
+4 conducteurs isolés HO7V-U Eca 
+dont les conducteurs ont une section 
+de 1,5 mm². L’ensemble étant placé 
+dans un tube encastré dans une 
+paroi 
+Dispositifs de protection 
+ Coupe-circuit à fusible 
+ 
+Coupe-circuit à fusible d’une 
+intensité nominale de 16A type gG 
+ 
+Interrupteur automatique ou 
+disjoncteur 
+Les lettres majuscules inscrites à côté de ce 
+symbole spécifient le mode de fonctionnement 
+du disjoncteur. On emploie a cet effet: 
+- la lettre M pour le déclencheur à maximum de 
+courant; 
+- la lettre O pour le déclencheur à manque de 
+tension; 
+- la lettre Δ pour la sensibilité du dispositif de 
+protection à courant différentiel-résiduel. 
+Lorsque le disjoncteur est muni de plusieurs dé-
+clencheurs fonctionnant dans des conditions 
+différentes, on sépare les inscriptions corres-
+pondantes par le signe + (le nombre de pôles 
+protégés par des déclencheurs est inscrit en in-
+dice). 
+ 
+Exemple: Disjoncteur tripolaire muni 
+de 2 déclencheurs fonctionnant à 
+maxima de courant et d’un 
+déclencheur à manque de tension 
+ 
+Dispositif de protection à courant 
+différentiel-résiduel (In=300 mA, 
+type 1, In=40A)) 
+ 
+Petit disjoncteur d’une intensité 
+nominale de 20A courbe C 
+ 
+Prise de terre, mise à la terre 
+Interrupteurs 
+ 
+Interrupteur (général) 
+ 
+Interrupteur à lampe témoin 
+La lampe brille toujours et sert à retrouver 
+l’interrupteur dans l’obscurité 
+ 
+Interrupteur unipolaire à ouverture 
+retardée 
+ 
+Interrupteur bipolaire 
+ 
+Interrupteur tripolaire 
+ 
+Commutateur unipolaire  
+Double allumage: pour établir ou interrompre 
+séparément deux circuits d’un seul endroit 
+ 
+Interrupteur unipolaire va-et-vient 
+A deux directions: pour établir ou interrompre un 
+circuit de 2 endroits différents 
+ 
+Interrupteur bipolaire va-et-vient 
+A deux directions 
+ 
+Commutateur intermédiaire pour va-
+et-vient 
+Associé avec deux interrupteurs va-et-vient 
+aux deux extrémités, permet d’établir ou 
+interrompre un circuit d’un nombre quelconque 
+d’endroits 
+ 
+Gradateur 
+ 
+Interrupteur unipolaire à tirette 
+ 
+Interrupteur unipolaire à lampe de 
+signalisation 
+La lampe brille lorsque l’appareil qu’il dessert, 
+est en service 
+
+
+===== PAGE 29 =====
+
+   
+ 
+ 
+ 29 
+Interrupteurs 
+ 
+Bouton poussoir 
+ 
+Bouton poussoir à lampe témoin 
+Pour retrouver le bouton poussoir dans 
+l’obscurité 
+ 
+Bouton poussoir à accès protégé 
+(glace à briser) 
+ Minuterie 
+ Interrupteur horaire 
+ 
+Télérupteur 
+ Thermostat 
+ 
+Contrôleur de ronde ou dispositif de 
+verrouillage électrique par serrure 
+ 
+Détecteur de mouvement 
+(général) 
+(*) Mention technologie utilisé: IR, radar ou 
+combinaison 
+ 
+Interrupteur installé dans un 
+tableau de répartition et de 
+manoeuvre 
+Socles de prise de courant 
+ 
+Socle de prise de courant (général) 
+ 
+Socle pour plusieurs prises de 
+courant (figuré pour 3) 
+ Socle de prise de courant semi-
+étanche, étanche ou hermétique 
+ 
+Socle de prise de courant avec 
+contact pour conducteur de 
+protection 
+ 
+Socle de prise de courant avec 
+protection « enfant »  
+ 
+Socle de prise de courant avec 
+contact pour conducteur de 
+protection et avec protection 
+« enfant » 
+ 
+Socle de prise de courant avec 
+interrupteur bipolaire 
+ 
+Socle de prise de courant avec 
+interrupteur bipolaire de verrouillage 
+ 
+Socle de prise de courant avec 
+transformateur de séparation des 
+circuits 
+Par exemple: prise rasoir 
+ Socle de prise data 
+ 
+Socle de prise de courant avec 
+interrupteur unipolaire installé 
+dans un tableau de répartition et 
+de manoeuvre 
+Appareils d’utilisation 
+ Point lumineux 
+Point d’attente d’appareil d’éclairage représenté 
+avec canalisation électrique 
+ 
+Point d’attente d’appareil d’éclairage 
+en applique murale 
+ Appareil d’éclairage a fluorescence 
+(général) 
+ Appareil d’éclairage a 3 tubes 
+fluorescents 
+ 
+Projecteur (général) 
+ 
+Projecteur à faisceau peu divergent 
+ 
+Projecteur à faisceau divergent 
+ 
+Luminaire avec interrupteur 
+unipolaire incorporé 
+ 
+Appareil d’éclairage de sécurité sur 
+circuit de sécurité 
+ 
+Bloc autonome d’éclairage de 
+sécurité 
+ 
+Appareil auxiliaire pour lampe à 
+décharge 
+Utilisé uniquement quand cet appareil n’est pas 
+incorporé au luminaire 
+ 
+Sonnerie 
+ 
+Vibreur, trembleur 
+ 
+Trompe, corne 
+ 
+Sirène 
+ 
+Horloge 
+ 
+Horloge mère 
+ 
+Gâche électrique (ouverture et 
+fermeture de porte) 
+ 
+Ventilateur 
+Représenté avec canalisation électrique 
+ 
+Appareil de chauffage 
+ 
+Appareil de chauffage à 
+accumulation 
+ 
+Appareil de chauffage à 
+accumulation avec ventilateur 
+incorporé 
+ 
+Chauffe-eau électrique 
+ 
+Chauffe-eau à accumulation 
+ 
+Appareil électrodomestique fixe 
+(général) 
+ 
+Cuisinière électrique / T aque de 
+cuisson électrique 
+ 
+Four à micro-ondes 
+ 
+Four électrique 
+ 
+Lave-linge 
+ 
+Sèche-linge 
+ 
+Lave-vaisselle 
+ 
+Frigo 
+ 
+Congélateur, surgélateur 
+ 
+Moteur 
+
+
+===== PAGE 30 =====
+
+  
+30 
+Appareils d’utilisation 
+ 
+Borne de charge pour véhicules 
+électriques routiers 
+ 
+Compteur kWh 
+Sources 
+ Transformateur 
+ 
+Panneau solaire 
+ 
+Redresseur/Onduleur AC  DC 
+ 
+Onduleur DC  AC 
+ 
+Hacheur DC → DC 
+Domotique 
+ 
+L’unité de commande est représentée par un 
+rectangle qui comprend deux parties: 
+- partie inférieure: le symbole de base 
+p.ex.: un interrupteur, un socle de prise de 
+courant avec interrupteur 
+- partie supérieure: le type de commande de 
+l’unité 
+p.ex.: 
+ 
+ 
+
+
+===== PAGE 31 =====
+
+   
+ 
+ 
+ 31 
+14. Installations électriques domestiques existantes 
+Pour les installations électriques domestiques existantes, des dispositions dérogatoires s’appliquent. Une dis-
+tinction est faite entre les anciennes installations électriques domestiques et les installations électriques domes-
+tiques ancien RGIE. 
+ 
+Une ancienne installation électrique domestique est chaque installation ou chaque partie dont la réalisation sur 
+place a été entamée avant le 01/10/1981 et qui a fait l’objet ou non d’une visite de contrôle conformément à 
+l’ancien RGIE. 
+ 
+Une installation électrique domestique ancien RGIE  est chaque installation ou chaque partie qui a fait l’objet 
+d’un examen de conformité conformément à l’ancien RGIE (et donc dont la réalisation a été entamée après le 
+01/10/1981). 
+ 
+14.1 Dispositions dérogatoires pour des anciennes installations électriques domes-
+tiques 
+Matériel électrique qui était construit conformément aux règles de l’art en vigueur au mo-
+ment de leur installation Autorisé 
+Des dispositifs de protection à courant différentiel -résiduel dont la fonction de sectionne-
+ment est assurée par un dispositif sectionneur général placé en amont dans le tableau 
+principal 
+Autorisé 
+Des dispositifs de protection à courant différentiel -résiduel d’une intensité nominale infé-
+rieure à 40 A (mais adaptés à l’installation) Autorisé 
+Des dispositifs de protection à courant différentiel -résiduel d’une intensité nominale infé-
+rieure à 40 A ne portant pas le marquage spécifique “3000A, 22,5kA²s” Autorisé 
+Des dispositifs de protection à courant différentiel-résiduel de type AC Interdits 
+Des dispositifs de protection à courant différentiel-résiduel généraux qui ne sont pas plom-
+bables Interdits 
+Des dispositifs de protection contre les surintensités ne disposant pas le marquage de 
+classe de limitation d’énergie 3 Autorisé 
+Des fusibles et disjoncteurs automatiques à broches dans des anciens supports, en tenant 
+compte de l’ininterchangéabilité Autorisé 
+Un interrupteur-sectionneur général d’une intensité nominale d’au moins 25 A Autorisé 
+Des canalisations électriques sans les réactions au feu prédéterminées (F1/F2 et SA/SD ; 
+Cca/Eca et a1/s1) Autorisé 
+Des canalisations électriques avec une section inférieure à 2,5 mm² mais au moins égale 
+à 1 mm² Autorisé 
+Des circuits, pas exclusivement dédiés pour l’alimentation des appareils d’une puissance 
+nominale ≥  2600 W, ou des appareils similaires (lave-linge, lave-vaisselle, sèche-linge,…) 
+(voir 6.2) 
+Autorisé 
+Des socles de prise de courant fixés sur les parois des locaux ne présentant pas de risque 
+d’humidité à une hauteur au-dessus du sol fini inférieure à 15 cm Autorisé 
+Des socles de prise de courant ne comportant pas de contact de terre, et qui sont protégés 
+par un dispositif de protection à courant différentiel -résiduel à haute (30mA) ou très haute 
+(10mA) sensibilité 
+(à condition qu’elles ne soient pas destinées à alimenter un appareil de classe I ) 
+Autorisé 
+Des socles de prise de courant ne comportant pas de contact de terre, et qui ne sont pas 
+protégés par un dispositif de protection à courant différentiel -résiduel à haute (30mA) ou 
+très haute (10mA) sensibilité 
+Interdit 
+Des circuits avec un nombre supérieur à 8 de socles de prises de courant simples ou 
+multiples, à condition que la puissance des appareils fixes et à poste fixe raccordés ne 
+dépasse pas la puissance admissible dans la canalisation électrique 
+Autorisé 
+
+===== PAGE 32 =====
+
+  
+32 
+Des socles de prise de courant avec contact de terre sans liaison galvanique avec la prise 
+de terre de l’installation Interdit 
+Des socles de prise de courant sans protection « enfant »  Interdit 
+Des socles de prise de courant répondant aux prescriptions du Livre 1 avant le 01/03/2025 Autorisé 
+Présence des schémas unifilaires et des plans de position simplifiés Autorisé 
+Restriction au marquage uniquement du matériel électrique dans les tableaux de réparti-
+tion et de manœuvre et des machines et appareils fixes (sauf si toute possibilité de confu-
+sion soit écartée) 
+Autorisé 
+Absence du rapport du contrôle de conformité de l’installation électrique  Autorisé 
+Des conducteurs de protection qui ne sont pas repérés par la couleur vert-jaune Autorisé 
+Des conducteurs actifs ou des conducteurs de protection repérés par la couleur verte ou 
+jaune Autorisé 
+Des conducteurs actifs repérés par la couleur vert-jaune Interdit 
+Un conducteur de terre en cuivre avec une section de 6 mm² Autorisé 
+Absence du raccordement entre la masse des appareils fixe d’éclairage de classe I com-
+portant des douilles ne disposant pas d’un degré de protection d’au moins IPXX -B et le 
+conducteur de protection de la canalisation électrique 
+Autorisé 
+Des canalisations électriques qui ne comportent pas un conducteur de protection  
+(à condition qu’elles ne soient pas destinées à alimenter un appareil de classe I ) Autorisé 
+Des conducteurs de protection situés à l’extérieur de la canalisation électrique Autorisé 
+Absence des liaisons équipotentielles Autorisé 
+Un seul circuit d’éclairage dans l’installation électrique Autorisé 
+Délimitation du lieu contenant une baignoire et/ou une douche  comme un espace limité 
+aux volumes déterminés en 7.4 Autorisé 
+Présence des canalisations électriques existantes dans des lieux contenant une baignoire 
+et/ou une douche Autorisé 
+Absence des liaisons équipotentielles supplémentaires dans des lieux contenant une bai-
+gnoire et/ou une douche Autorisé 
+Présence des résistances de chauffage incorporées dans le sol  dans des lieux contenant 
+une baignoire et/ou une douche Autorisé 
+Absence d’un dispositif de protection à courant différentiel -résiduel d’un courant de fonc-
+tionnement ne dépassant pas 30  mA pour la protection des socles de prise de courant 
+non destinés à l’alimentation des appareils et des machines fixes ou à poste fixe et/ou pour 
+la protection de l’éclairage 
+Autorisé 
+Absence d’un dispositif de protection à courant différentiel -résiduel d’un courant de fonc-
+tionnement ne dépassant pas 30  mA pour la protection  de la salle de bain et salle de 
+douche et le lave-linge, le sèche-linge et le lave-vaisselle 
+Interdit 
+Des installations avec plus de 8 circuits terminaux par dispositif de protection à courant 
+différentiel-résiduel à haute ou très haute sensibilité Autorisé 
+ 
+14.2 Dispositions dérogatoires pour des installations électriques domestiques an-
+cien RGIE 
+Matériel électrique qui a été installé conformément aux prescriptions de l’ancien RGIE et 
+construit conformément aux règles de l’art au moment de son installation Autorisé 
+Des canalisations électriques EMCB en EMCVB d’une section de 1 mm² et des canalisa-
+tions électriques CTLB en VTLB d’une section de 0,75 mm² qui font partie d’un circuit sans 
+socle de prise de courant 
+→ Installations réalisées avant le 17/05/1986 
+Autorisé 
+Des câbles électriques munis d’une armure métallique (p.ex. VFVB) dans les salles de bain 
+→ Installations réalisées avant le 22/07/1986 Autorisé 
+Des dispositifs de protection à courant différentiel-résiduel de type AC 
+→ Installations réalisées avant le 01/01/1987 Interdit 
+Des dispositifs de protection contre les surintensités d’un pouvoir de coupure minimal de 
+1500 A 
+→ Installations réalisées avant le 27/09/1988 
+Interdit 
+
+===== PAGE 33 =====
+
+   
+ 
+ 
+ 33 
+Des dispositifs de protection à courant différentiel -résiduel d’une intensité nominale infé-
+rieure à 40 A 
+→ Installations réalisées avant le 16/09/1991 
+Autorisé 
+Un interrupteur-sectionneur général d’une intensité nominale d’au moins 25 A 
+→ Installations réalisées avant le 16/09/1991 Autorisé 
+Des dispositifs de protection à courant différentiel -résiduel ne portant pas le marquage 
+spécifique “3000A, 22,5kA²s” 
+→ Installations réalisées avant le 07/05/2000 
+Autorisé 
+Des dispositifs de protection à courant différentiel -résiduel dont la fonction de sectionne-
+ment est assurée par un dispositif sectionneur général placé en amont dans le tableau 
+principal 
+→ Installations réalisées avant le 02/07/2003 
+Autorisé 
+Des dispositifs de protection contre les surintensités ne disposant pas le marquage de 
+classe de limitation d’énergie 3 
+→ Installations réalisées avant le 31/12/2007 
+Autorisé 
+Des canalisations électriques en matériaux retardateurs de flammes dans des lieux à 
+risque d’incendie négligeable (BE1, CA1 et CB1) 
+→ Installations réalisées avant le 04/09/2013 
+Autorisé 
+Des canalisations électriques avec disposition spéciale ou non -propagateur de l’incendie 
+groupées en faisceaux ou en nappe dans des lieux à risque d’incendie accru (BE2/3 et/ou 
+CA2 et/ou CB2) 
+→ Installations réalisées avant le 04/09/2013 
+Autorisé 
+Des canalisations électriques et leurs accessoires qui n’ont pas la réaction au feu prédé-
+terminée SA/SD ou a1/s1 
+→ Installations réalisées avant le 04/09/2013 
+Autorisé 
+Des installations de sécurité et de secours dont le maintien de fonction est seulement ga-
+ranti par une canalisation électrique ayant une résistance au feu ou ayant une protection 
+externe offrant une protection identique dans des lieux à risque d’incendie accru (BE2/3 
+et/ou CA2 et/ou CB2) 
+→ Installations réalisées avant le 04/09/2013 
+Autorisé 
+Des canalisations électriques dans des ouvrages de construction avec les caractéristiques 
+F1/F2 et/ou SA/SD 
+→ Installations réalisées après le 04/09/2013 
+Autorisé 
+Des conducteurs isolés installés en faisceaux ou en nappe avec la caractéristique F1 ou 
+Eca dans des lieux à risque d’incendie négligeable (BE1, CA1 et CB1) 
+→ Installations réalisées après le 04/09/2013 
+Autorisé 
+Des câbles sans les caractéristiques SA/SD ou a1/s1 le long des voies d’évacuation et 
+dans des locaux recevant du public pouvant accueillir au minimum 50 personnes  
+→ Installations réalisées après le 04/09/2013 
+Autorisé 
+Des circuits, pas exclusivement dédiés pour l’alimentation des appareils d’une puissance 
+nominale ≥  2600 W, ou des appareils similaires (lave-linge, lave-vaisselle, sèche-linge,…) 
+(voir 6.2) 
+Autorisé 
+Des circuits avec un nombre supérieur à 8 de socles de prises de courant simples ou 
+multiples, à condition que la puissance des appareils fixes et à poste fixe raccordés ne 
+dépasse pas la puissance admissible dans la canalisation électrique 
+Autorisé 
+Des socles de prise de courant répondant aux prescriptions du Livre 1 avant le 01/03/2025 Autorisé 
+Absence de la signature et la date du responsable de l’exécution des travaux et du pro-
+priétaire de l’installation sur les schémas unifilaires et les plans de position Autorisé 
+Restriction au marquage uniquement du matériel électrique dans les tableaux de réparti-
+tion et de manœuvre et des machines et appareils fixes (sauf si toute possibilité de confu-
+sion soit écartée) 
+Autorisé 
+Absence du rapport du contrôle de conformité de l’installation électrique  Autorisé 
+Absence d’un dispositif de protection à courant différentiel -résiduel d’un courant de fonc-
+tionnement ne dépassant pas 30  mA pour la protection des socles de prise de courant 
+non destinés à l’alimentation des appareils et des machines fixes ou à poste fixe et/ou pour 
+la protection de l’éclairage 
+Autorisé 
+
+===== PAGE 34 =====
+
+  
+34 
+Des installations avec plus de 8 circuits terminaux par dispositif de protection à courant 
+différentiel-résiduel à haute ou très haute sensibilité Autorisé 
+Délimitation du lieu contenant une baignoire et/ou une douche comme un espace limité 
+aux volumes déterminés en 7.4 Autorisé 
+ 
+14.3 Dispositions dérogatoires pour des installations électriques > 01/06/2020  
+Absence d’un dispositif de protection à courant différentiel -résiduel d’un courant de fonc-
+tionnement ne dépassant pas 30  mA pour la protection des socles de prise de courant 
+non destinés à l’alimentation des appareils et des machines fixes ou à poste fixe et/ou pour 
+la protection de l’éclairage 
+→ Installations réalisées avant le 01/06/2023 
+Autorisé 
+Des installations avec plus de 8 circuits terminaux par dispositif de protection à courant 
+différentiel-résiduel à haute ou très haute sensibilité 
+→ Installations réalisées avant le 01/06/2023 
+Autorisé 
+Des socles de prise de courant répondant aux prescriptions du Livre 1 avant le 01/03/2025 
+→ Installations réalisées avant le 01/03/2025 Autorisé 
+Délimitation du lieu contenant une baignoire et/ou une douche comme un espace limité 
+aux volumes déterminés en 7.4 
+→ Installations réalisées avant le 01/03/2025 
+Autorisé 
+ 
+ 
+  
+
+===== PAGE 35 =====
+
+   
+ 
+ 
+ 35 
+15. Contrôles obligatoires 
+15.1 Contrôle de conformité avant mise en usage 
+T oute installation électrique à basse tension ou à très basse tension, même celle alimentée par une installation 
+privée (p.ex. des groupes électrogènes, des installations photovoltaiques ,...) doit faire l’objet d’un contrôle de 
+conformité sur place avant la mise en usage de l’installation. 
+ 
+T oute modification importante ou extension importante d’une installation à basse ou très basse tension doit faire 
+l’objet d’un contrôle de conformité avant la mise en usage de la dite modification ou extension. Ce contrôle de 
+conformité est limité à la partie ajoutée ou modifiée de l’installation. T outefois, si la modification ou l’extension a 
+un impact sur la partie non modifiée, cette partie non modifiée doit également faire partie du contrôle . 
+ 
+15.2 Visite de contrôle 
+T oute installation à basse tension ou très basse tension et ayant fait l’objet d’un contrôle technique (soit de 
+conformité, soit pour un renforcement, soit pour la vente,...) doit faire l’objet d’une visite de contrôle sur place. 
+La visite de contrôle porte sur le maintien de la conformité aux prescriptions réglementaires. 
+ 
+La périodicité des visites de contrôle des installations électriques domestiques est de 25 ans, si l’installation est 
+conforme. 
+ 
+15.3 Visite de contrôle avant tout renforcement de la puissance de raccordement  
+T oute ancienne installation électrique domestique d’une unité d’habitation qui n’a pas fait l’objet d’un examen 
+de conformité conformément à l’ancien RGIE et pour laquelle un renforcement de la puissance de raccordement 
+au réseau public de distribution d’électricité est demandé, doit faire l’objet d’une visite de contrôle. 
+ 
+15.4 Visite de contrôle d’une unité d’habitation lors de la vente 
+T oute installation électrique domestique d’une unité d’habitation n’ayant subi aucune modification importante 
+ou extension notable depuis le 01/10/1981 ou ayant subi une modification importante ou extension notable 
+depuis le 01/10/1981 mais dont la partie datant d’avant le 01/10/1981 n’a pas fait l’objet d’une visite de contrôle, 
+doit faire l’objet d’une visite de contrôle avant la vente. 
+ 
+Ce contrôle est superflue et inutile  si l’acheteur va démolir le bâtiment ou rénover complètement l’installation 
+électrique. Cet accord doit être obligatoirement mentionné dans l’acte authentique. Avant la mise en service de 
+la nouvelle installation électrique, un contrôle de conformité de l’ensemble de l’installation est requis. Ce rapport 
+doit également être transmis à la Direction générale de l’Energie préposée à la haute surveillance des installa-
+tions électriques domestiques. 
+ 
+Dans le cas d’un rapport non conforme, l’acheteur doit communiquer par écrit son identité et la date de l’acte 
+de vente à l’organisme agréé qui a exécuté la visite de contrôle. 
+ 
+15.5 Visite de contrôle libre 
+Une ancienne installation électrique domestique qui ne fait pas l’objet d’un renforcement de la puissance de 
+raccordement ou d’une vente de l’unité d’habitation, peut également faire l’objet d’un contrôle technique sans 
+engagement. 
+  
+
+===== PAGE 36 =====
+
+  
+36 
+16. Devoirs du propriétaire, gestionnaire ou exploitant 
+Le propriétaire, le gestionnaire ou l’exploitant détient le dossier de l’installation électrique. Le dossier est établi 
+en deux exemplaires, et comporte au moins: 
+• le schéma unifilaire de l’installation 
+• le plan de position de l’installation 
+• le rapport de contrôle de conformité 
+• éventuellement, les rapports des visites de contrôle (chaque 25 ans) 
+ 
+Le dossier de l’installation électrique reflète à tout moment avec précision l’installation réelle. Chaque modifica-
+tion doit être effectuée selon les règles du Livre 1 et doit être mentionnée sur le schéma unifilaire et le plan de 
+position. 
+ 
+Le bon fonctionnement des dispositifs de protection à courant différentiel-résiduel doit être vérifié à intervalles 
+réguliers (p.ex. mensuellement), selon les prescriptions du fabricant . 
+ 
+Le fonctionnaire préposé à la surveillance du Service Public Fédéral ayant l’Energie dans ses attributions doit 
+être avisé immédiatement de tout accident survenu aux personnes et dû, directement ou indirectement, à la 
+présence d’installations électriques. 
+  
+
+===== PAGE 37 =====
+
+   
+ 
+ 
+ 37 
+Notes 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== PAGE 38 =====
+
+  
+38 
+Notes 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== PAGE 39 =====
+
+   
+ 
+ 
+ 39 
+Notes 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+===== PAGE 40 =====
+
+  
+40 
+ 
+Meensesteenweg 338 
+8800 Roeselare 
+www.acavzw.be 
+ 
+T 065 33 49 79 
+F 065 33 66 29 
+info@acavzw.be 

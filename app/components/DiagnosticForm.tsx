@@ -782,10 +782,64 @@ function SpinnerIcon() {
   );
 }
 
+type RephraseState = Record<string, string>;
+
 // ── Résultats ─────────────────────────────────────────────────────────────────
 
 function DiagnosticResults({ data }: { data: DiagnosticOutput }) {
   const ok = data.resultat_global === "CONFORME";
+  const [rephrased, setRephrased] = useState<RephraseState>({});
+  const [rephraseErrors, setRephraseErrors] = useState<RephraseState>({});
+  const [loadingKey, setLoadingKey] = useState<string | null>(null);
+
+  async function rephraseText(key: string, text: string, context: string) {
+    if (!text.trim()) return;
+    setLoadingKey(key);
+    setRephraseErrors((prev) => ({ ...prev, [key]: "" }));
+
+    try {
+      const res = await fetch("/api/rgie/rephrase", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text, context }),
+      });
+
+      const payload: unknown = await res.json();
+      if (!res.ok) {
+        const message =
+          typeof payload === "object" &&
+          payload !== null &&
+          "error" in payload &&
+          typeof (payload as { error?: unknown }).error === "string"
+            ? (payload as { error: string }).error
+            : "Impossible de reformuler ce texte pour l'instant.";
+        throw new Error(message);
+      }
+
+      const reformulation =
+        typeof payload === "object" &&
+        payload !== null &&
+        "rephrased" in payload &&
+        typeof (payload as { rephrased?: unknown }).rephrased === "string"
+          ? (payload as { rephrased: string }).rephrased
+          : "";
+
+      if (!reformulation) {
+        throw new Error("Aucune reformulation générée.");
+      }
+
+      setRephrased((prev) => ({ ...prev, [key]: reformulation }));
+    } catch (e) {
+      const message =
+        e instanceof Error
+          ? e.message
+          : "Erreur inattendue pendant la reformulation.";
+      setRephraseErrors((prev) => ({ ...prev, [key]: message }));
+    } finally {
+      setLoadingKey(null);
+    }
+  }
+
   return (
     <div id="rgie-results" className="space-y-4 pt-2">
       {/* Bandeau résumé */}
@@ -844,6 +898,35 @@ function DiagnosticResults({ data }: { data: DiagnosticOutput }) {
                     <p className="text-sm text-slate-800 dark:text-slate-200">
                       {nc.message}
                     </p>
+                    <div className="mt-2">
+                      <button
+                        type="button"
+                        onClick={() =>
+                          rephraseText(
+                            `nc-${nc.code}`,
+                            nc.message,
+                            "non-conformite",
+                          )
+                        }
+                        disabled={loadingKey === `nc-${nc.code}`}
+                        className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 px-2.5 py-1 text-[11px] font-semibold text-slate-700 transition hover:bg-slate-100 disabled:cursor-not-allowed disabled:opacity-70 dark:border-slate-600 dark:text-slate-300 dark:hover:bg-slate-700"
+                      >
+                        {loadingKey === `nc-${nc.code}` ? (
+                          <SpinnerIcon />
+                        ) : null}
+                        Reformuler avec IA
+                      </button>
+                    </div>
+                    {rephrased[`nc-${nc.code}`] && (
+                      <p className="mt-2 rounded-lg border border-blue-200 bg-blue-50 px-3 py-2 text-xs text-blue-900 dark:border-blue-800 dark:bg-blue-900/20 dark:text-blue-200">
+                        {rephrased[`nc-${nc.code}`]}
+                      </p>
+                    )}
+                    {rephraseErrors[`nc-${nc.code}`] && (
+                      <p className="mt-2 text-xs text-red-600 dark:text-red-400">
+                        {rephraseErrors[`nc-${nc.code}`]}
+                      </p>
+                    )}
                     {nc.correction && (
                       <p className="mt-1.5 text-xs text-slate-500 dark:text-slate-400">
                         <span className="font-semibold text-blue-600 dark:text-blue-400">
@@ -877,6 +960,35 @@ function DiagnosticResults({ data }: { data: DiagnosticOutput }) {
                     <p className="text-sm font-semibold text-slate-900 dark:text-slate-100">
                       {c.resume}
                     </p>
+                    <div className="mt-2">
+                      <button
+                        type="button"
+                        onClick={() =>
+                          rephraseText(
+                            `cause-${c.hypothese_id}`,
+                            c.resume,
+                            "cause-probable",
+                          )
+                        }
+                        disabled={loadingKey === `cause-${c.hypothese_id}`}
+                        className="inline-flex items-center gap-1.5 rounded-lg border border-slate-300 px-2.5 py-1 text-[11px] font-semibold text-slate-700 transition hover:bg-slate-100 disabled:cursor-not-allowed disabled:opacity-70 dark:border-slate-600 dark:text-slate-300 dark:hover:bg-slate-700"
+                      >
+                        {loadingKey === `cause-${c.hypothese_id}` ? (
+                          <SpinnerIcon />
+                        ) : null}
+                        Reformuler avec IA
+                      </button>
+                    </div>
+                    {rephrased[`cause-${c.hypothese_id}`] && (
+                      <p className="mt-2 rounded-lg border border-blue-200 bg-blue-50 px-3 py-2 text-xs text-blue-900 dark:border-blue-800 dark:bg-blue-900/20 dark:text-blue-200">
+                        {rephrased[`cause-${c.hypothese_id}`]}
+                      </p>
+                    )}
+                    {rephraseErrors[`cause-${c.hypothese_id}`] && (
+                      <p className="mt-2 text-xs text-red-600 dark:text-red-400">
+                        {rephraseErrors[`cause-${c.hypothese_id}`]}
+                      </p>
+                    )}
                   </div>
                   <span
                     className="shrink-0 rounded-full bg-blue-100 px-2.5 py-1 text-sm font-bold text-blue-700

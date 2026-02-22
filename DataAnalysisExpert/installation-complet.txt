@@ -1,0 +1,1335 @@
+
+
+===== PAGE 1 =====
+
+INSTALLATIONS
+ÉLECTRIQUES
+DOMESTIQUES 
+Édition 2020
+
+===== PAGE 2 =====
+
+1
+
+
+===== PAGE 3 =====
+
+2
+1. Prise de terre  5
+2. Sécurité du matériel électrique 8
+3. Tableaux de répartition 8
+4. Différentiels  9
+5. Fusibles et disjoncteurs 10
+6. Canalisations  11
+7. Prises, interrupteurs et éclairage 13
+8. Salles de bains et douches 14
+9. Eclairage à très basse tension de sécurité 16
+10. Dispositions dérogatoires 19
+11. Obligations  22
+12. Dossier électrique  22
+13. Distribution d’électricité sur chantiers 30
+14. Contrôle   31
+15. Visite de contrôle des installations à basse tension 31 
+ lors de la vente d’une unité d’habitation
+INSTALLATIONS ÉLECTRIQUES DOMESTIQUES
+Sommaire
+La présente publication a été élaborée en fonction de la réglementation en vigueur 
+à la date de publication (novembre 2019) et ne tient donc pas compte des évolutions 
+ultérieures de cette réglementation. La reproduction est autorisée moyennant mention 
+de la source.
+
+===== PAGE 4 =====
+
+ANCIENNES INSTALLATIONS NOUVELLES INSTALLATIONS
+C’est en sa qualité d’organisme de 
+contrôle agréé que Vinçotte vous propose 
+ce guide pratique, qui contient divers 
+commentaires sur les différents articles 
+du Règlement Général sur les Installations 
+Electriques (RGIE).
+Le RGIE énonce les règles de sécurité qui 
+s’appliquent à toute installation neuve, à 
+toute modification ou extension notable 
+d’une installation existante, ainsi qu’à 
+toutes les installations existantes.
+Avant de vous plonger dans ce guide, lisez 
+les trois conseils précieux cidessous :
+ ■ Pensez à votre confort. T enez compte 
+de vos besoins actuels et futurs. Veillez 
+à installer suffisamment de circuits, 
+prises, etc.
+ ■ Informez-vous auprès de votre 
+gestionnaire de réseau de distribution 
+ou installateur quant aux particularités 
+locales, telles que les raccordements 
+monophasés ou triphasés, les 
+raccordements aériens ou souterrains, 
+le compteur kWh et le boîtier, le type de 
+câble, etc.
+ ■ Confiez la réalisation de votre 
+installation à un spécialiste. Refusez tout 
+bricolage ou solution de fortune, car il y 
+va de votre sécurité.
+3
+Sécurité, fiabilité, économie, confort et souplesse sont autant de critères qui permettent 
+de juger la qualité d’une installation électrique. Les techniciens doivent en tenir compte au 
+moment de réaliser une nouvelle installation ou de rénover une installation existante. Nombre 
+d’installations présentent des risques d’incendie et d’électrocution. En outre, elles ne sont pas 
+toujours adaptées aux besoins actuels et futurs.
+
+
+===== PAGE 5 =====
+
+4
+1. PRISE DE TERRE
+Généralités
+Dispositions
+Le but de la prise de terre est d’écouler les courants de défaut vers la terre. En l’absence d’une 
+prise de terre efficace, tout ou une partie du courant de défaut s’écoulera à travers la personne 
+en contact avec l’appareil défectueux, ce qui peutêtre mortel.
+Lors de l’examen avant mise en service, l’organisme agréé mesure la résistance de dispersion 
+de la prise ou de la boucle de terre. Cette résistance ne peut être supérieure à 30 Ω ou, 
+moyennant des mesures complémentaires, supérieure à 100 Ω (voir point 4 «Différentiels»).
+A. Prise de terre ou boucle de terre
+B. Sectionneur de terre
+C. Eléments conducteurs étrangers (gaz,  
+  eau, chauffage central, ...)
+D. Charpente métallique bâtiment
+E. Borne principale de terre
+F. Masse
+1. Conducteur de terre
+2. Conducteur principal de protection
+3. Conducteur de protection
+4. Liaison équipotentielle principale
+5. Liaison équipotentielle supplémentaire
+2
+A
+B C
+D
+E
+F
+L2
+L3
+N
+PE
+3
+4
+41
+1 5
+3 3
+
+===== PAGE 6 =====
+
+0,6 m1,5 m
+2,1 m
+5
+Piquet de terre
+Pour bâtiments existants. Un ou 
+plusieurs éléments conducteurs 
+enfouis dans le sol et reliés entre 
+eux, qui établissent une liaison 
+électrique avec la terre.
+
+===== PAGE 7 =====
+
+Le conducteur reliant la borne de terre principale à la prise de terre, le sectionneur de terre 
+éventuel étant considéré comme faisant partie dudit conducteur de terre.
+Le conducteur de protection doit être distribué dans l’ensemble de l’installation
+et aboutir à tous les appareils d’utilisation tels que prises, luminaires, appareils à
+poste fixe et autres, à l’exception des appareils électriques à très basse tension de
+sécurité (TBTS).
+Conducteur de protection
+Conducteur (jaune/vert) Section min.
+Conducteur de terre 16 mm²
+Conducteur principal de protection 6 mm²
+Liaisons équipotentielles principales 6 mm²
+Liaisons équipotentielles supplémentaires 4 mm²
+Conducteur de protection prises 2.5 mm²
+Conducteur de protection éclairage 1.5 mm²
+6
+Boucle de terre
+Conducteur de terre
+Sectionneur de terre
+Boucle de terre
+Pour toutes les nouvelles 
+constructions dont une partie ou 
+la totalité des fondations ont plus 
+de 60 cm de profondeur, il y a 
+lieu de prévoir à fond de fouille 
+une boucle de terre constituée 
+soit d’un conducteur plein en 
+cuivre nu ou cuivre plombé, 
+soit sept âmes câblées en cuivre semi-rigide, de 35 mm² de section ronde, sans 
+soudure. Les extrémités de la boucle de terre doivent rester accessibles en 
+permanence. Si cette boucle se compose de plusieurs conducteurs placés en 
+série, les raccordements de chaque conducteur doivent être accessibles.
+
+===== PAGE 8 =====
+
+7
+Liaison équipotentielle principale
+Liaison équipotentielle supplémentaire
+Pour prévenir le risque d’électrocution, il ne suffit pas d’effectuer une mise à la terre, 
+de prévoir des différentiels ou d’installer un conducteur de protection. Les éléments 
+conducteurs étrangers, susceptibles de propager un potentiel dangereux, doivent être 
+reliés au réseau de mise à la terre. En l’absence d’une telle connexion, un défaut dans 
+une canalisation ou dans un appareil peut faire apparaître une tension dangereuse 
+entre les conduites d’eau et de gaz par exemple. 
+Chaque immeuble doit être doté d’une liaison équipotentielle principale qui relie la 
+borne principale de terre avec les éléments conducteurs étrangers tels que conduites 
+d’eau, de gaz, de chauffage central, etc.
+Dans les salles de bains et salles de douches, tous les éléments conducteurs
+étrangers et toutes les masses tels que les canalisations de gaz, d’eau chaude et
+froide, de chauffage central, la baignoire, les prises, etc. doivent être reliés entre
+eux, ainsi qu’avec le conducteur de protection.
+
+===== PAGE 9 =====
+
+3. TABLEAUX DE RÉPARTITION
+ ■ Classe I (métallique) ou classe II (double isolation).
+ ■ Doivent être dotés d’une paroi arrière et d’une porte.
+ ■ Sont incombustibles, non hygroscopiques et possèdent une résistance mécanique 
+ suffisante.
+ ■ Sont aisément accessibles, placés de préférence à environ 1,5 mètres de hauteur.
+ ■ L’exécution du tableau doit correspondre aux données reprises sur le schéma
+ ■ Lorsque plusieurs tarifs sont utilisés, les appareils de protection correspondants doivent 
+ être groupés sur des panneaux distincts (écartés les uns des autres de 10 cm au moins)  
+ ou être placés dans des coffrets distincts.
+ ■ Les conducteurs souples peuvent être utilisés pour autant que leurs extrémités soient  
+ placées dans des embouts sertis ou un système similaire.
+8
+2. SÉCURITÉ DU MATÉRIEL ÉLECTRIQUE
+Seul le matériel offrant toutes les garanties de sécurité peut être utilisé dans une installation 
+électrique. Le matériel électrique conforme à la norme s’ y rapportant est présumé être sûr. La
+conformité à la norme est souvent confirmée par le marquage CE ou une marque de conformité 
+telle que CEBEC, VGS, VDE, KEMA, etc.
+Le matériel alimenté en basse tension doit avoir au moins un degré de protection
+IPXX-B (IP2X).
+
+===== PAGE 10 =====
+
+max.
+300mA
+max.
+40A
+Un différentiel au moins doit être installé à l’origine de l’installation :
+ ■ sensibilité maximale de 300 mA (ΔIn)
+ ■ adapté au disjoncteur de branchement et au moins égal à 40 A (In)
+ ■ contrainte thermique de min. 22,5 kA²s pour 3000 A
+ ■ Etre de type A (sensible au courant continu pulsé). Si l’installation est  
+ équipée d’un récepteur triphasé à convertisseur électronique (borne de  
+ recharge pour voiture électrique, ascenseur, …), ce récepteur doit être  
+ protégé par un différentiel de type B(sensible au courant continu lissé).  
+ Vinçotte recommande de remplacer le différentiel à l’origine de l’installation  
+ par le différentiel de type B disposant d’un In 63A)
+ ■ assurer la fonction de sectionnement
+ ■ les bornes de raccordements doivent être scellables
+9
+4. DIFFÉRENTIELS
+Le dispositif de protection à courant différentiel résiduel détecte les courants de fuite s’écoulant 
+vers la terre. Cet appareil offre donc une excellente protection contre les risques d’incendie et 
+d’électrocution, ainsi que contre les consommations inutiles résultant de pertes de courant.
+
+===== PAGE 11 =====
+
+max.
+300mA
+max.
+40A
+max.
+40A
+max.
+40A
+max.
+40A
+max.
+40A
+Des différentiels supplémentaires doivent être installés dans les cas suivants :.
+ ■ salles d’eau, machine à laver, séchoir, lave-vaisselle : 
+ sensibilité maximale de 30 mA (ΔIn)
+ ■ circuits de résistances de chauffage noyés dans le sol ou 
+ d’autres matériaux: sensibilité maximale de 100 mA (ΔIn)
+ ■ lorsqu’ une prise est installée dans le volume 2 de la salle de bains:  
+ sensibilité 10 mA (ΔIn)
+ ■ lorsque la résistance de la dispersion de la prise de terre est comprise  
+ entre 30 et 100 Ω (voir schéma ci-après).
+10
+
+
+===== PAGE 12 =====
+
+11
+Section en mm² Intensité nominal 
+ du fusible
+Intensité nominale 
+du disjoncteur
+1.5 10 A 16 A
+2.5 16 A 20 A
+4 20 A 25 A
+6 32 A 40 A
+10 50 A 63 A
+16 63 A 80 A
+25 80 A 100 A
+35 100 A 125 A
+Section en mm² Intensité nominal 
+ du fusible
+1.5 Orange
+2.5 Gris
+4 Bleu
+6 Brun
+10 Vert
+5. FUSIBLES ET DISJONCTEURS
+Une surcharge ou un court-circuit dans une installation peut 
+provoquer un incendie lorsque l’intensité nominale des 
+fusibles ou disjoncteurs n’est pas adaptée à la section des 
+conducteurs. Les disjoncteurs (à l’exception des disjoncteurs 
+à broches) doivent aussi être pourvus du marquage suivant :
+Lorsqu’un fusible ou un disjoncteur a fonctionné, cherchez-en la cause.
+Intensité nominale maximale des fusibles et disjoncteurs en fonction de la section
+des conducteurs.
+Code couleurs des éléments de calibrage, en fonction de la section des conducteurs.
+3000
+3
+
+===== PAGE 13 =====
+
+12
+
+===== PAGE 14 =====
+
+Utilisation Intensité nominal 
+ du fusible
+Eclairage 1.5 mm2
+Prises 2.5 mm2
+Circuit mixte : éclairage et prises de courant 2.5 mm2
+Circuits de commande, de contrôle et de signalisation 0.5 mm2 (**)
+Cuisinière, lessiveuse... triphasé 4 mm2 (*)
+Cuisinière, lessiveuse... monophasé 6 mm2 (*)
+Mode de pose
+VOB 
+VOBs 
+VOBst
+VVB 
+(XVB)
+VFVB 
+(XFVB) VGVB
+Dans un tube en plastique ou en métal oui oui oui oui
+Dans des plinthes non métalliques et 
+incombustibles oui oui oui oui
+Pose apparente non oui oui oui
+Encastré dans les murs, sans tubes (*) non oui oui non
+6. CANALISATIONS
+(*) Sauf (sections plus faibles autorisées) soit : câble en montage apparent ou à l’air libre - 
+alimentation par tube d’un pouce (25 mm) - conduit de réserve désservant le même endroit. 
+(**) Protection: disjoncteur In = 4A ou fusibles In = 2A.
+Section minimale
+Mode de pose des canalisations à B.T.
+Généralités
+La section des conducteurs doit toujours être choisie en fonction de la puissance prévue. Les 
+conducteurs souples peuvent être utilisés pour autant que les fils de leurs deux extrémités 
+soient contenus dans des embouts ou autre système équivalent. Les canalisations électriques 
+doivent être installées à une distance suffisante de canalisations non électriques (eau, gaz, etc.).
+20
+10
+35 25
+2535
+35
+35
+13
+(*) Trajets verticaux et horizontaux.
+(dimensions en cm)
+
+===== PAGE 15 =====
+
+Bleu = Neutre S’il n’y a pas de neutre, le bleu peut être 
+utilisé comme phase. Vinçotte préconise 
+de toujours utiliser un bleu dans les circuits 
+bifilaires, même en l’absence de neutre 
+(réseau 3 x 230 V), de manière à faciliter un 
+passage éventuel en 230/400 V.
+Jaune/Vert = Conducteur de protection
+Jaune = Interdit
+Ver = Interdit
+Code de couleurs des conducteurs isolés
+Caractéristiques des canalisations en mode de pose apparente
+Les canalisations installées séparément en montage apparent ont au moins la caractéristique 
+F1 ou minimum Eca. Les canalisations installées en faisceaux ou en nappe en montage apparent, 
+les câbles ont au moins la caractéristique F2 ou minimum Cca
+Une installation réalisée dans la condition de facteur d’influence externe CA2, c’est-à-dire 
+dans un bâtiment combustible, les câbles et les conducteurs électriques ont au moins la 
+caractéristique F2 ou minimum Eca à l’exception des câbles placés dans une gaine ayant la 
+caractéristique équivalente à F2. 
+Un bâtiment en bois n’est pas nécessairement à considérer comme un bâtiment combustible 
+(CA2). Certains bois utilisés sont traités pour ne pas être combustible. Cette situation est à 
+analyser au cas par cas. Il y a lieu de se renseigner auprès de son architecte.
+Ces prescriptions concernent aussi le câblage des canalisations fixes de communication et de 
+technologie de l’information (informatique, alarme, téléphonie, …). Les canalisations électriques 
+Eca ou Cca répondent à la classe de réaction au feu des câbles selon la norme européenne 
+harmonisée EN 50575:2014 / A1:2016.
+(*) Dans le mur : 0,4 cm min.
+Enduit de
+revêtement
+(*) Dans du béton : 3 cm min.
+≥ 4 mm
+≥ 3 cm
+14
+
+
+===== PAGE 16 =====
+
+7. PRISES, INTERRUPTEURS ET ÉCLAIRAGE
+15
+Prises
+Interrupteurs
+Eclairage
+Le nombre de prises simples ou multiples est limité à 8 par circuit. Dans les circuits mixtes 
+(prises et éclairage), tout point lumineux est assimilé à une prise. Par «point lumineux», il faut 
+comprendre un ou plusieurs luminaires commandés simultanément.
+Toutes les prises sont munies d’une broche de terre raccordée (contact de terre latéral interdit) 
+et sont de type «sécurité enfant» (impossible d’y introduire un objet métallique, tel qu’un fil de 
+fer). Les prises apparentes sont installées à 15 cm du sol au minimum dans les locaux secs et à 
+25 cm dans les autres locaux, sauf lorsqu’elles sont intégrées dans les plinthes ou encore sous 
+certaines conditions pour les prises de sol.
+Des interrupteurs unipolaires, télérupteurs et dimmers peuvent être utilisés dans des circuits 
+monophasés pour luminaires, prises ou commande jusqu’à un courant nominale de 16A (In). 
+Pour les circuits avec neutre, c’est la phase qui doit être commandée.
+L’installation électrique doit comprendre au moins deux circuits pour l’éclairage.
+
+===== PAGE 17 =====
+
+16
+
+
+===== PAGE 18 =====
+
+17
+Le risque d’électrocution est élevé dans les salles de bains et douches en raison de la faible 
+résistance du corps humain lorsqu’il est mouillé ou immergé. Il est interdit d’installer ou 
+d’utiliser un appareil électrique mobile ou portatif dans un bain ou une douche, ou à proximité 
+immédiate.
+8. SALLES DE BAINS ET DOUCHES
+Volumes
+0,6 m
+2,4 m
+2,4 m
+0,6 m
+Volume 0
+Volume 1
+Volume 2
+Volume 3
+A
+2,25 m (A < 0,15m)
+2,25 m (A > 0,15m)
+Vol. 1
+Vol. 0
+Vol. 2
+Vol. 3
+2,4 m
+0,6 m
+A
+2,25 m (A < 0,15m)
+2,25 m (A > 0,15m)
+0,6 m
+2,4 m
+0,6 m
+2,4 m
+2,4 m
+0,6 m
+Volume 0
+Volume 1
+Volume 2
+Volume 3
+A
+2,25 m (A < 0,15m)
+2,25 m (A > 0,15m)
+Vol. 1
+Vol. 0
+Vol. 2
+Vol. 3
+2,4 m
+0,6 m
+A
+2,25 m (A < 0,15m)
+2,25 m (A > 0,15m)
+0,6 m
+2,4 m
+
+===== PAGE 19 =====
+
+18
+Matériel électrique autorisé
+Volume Matériel autorisé Protection
+0
+Uniquement le matériel qui est raisonnablement nécessaire 
+Alimentation TBTS ≤ 12 V AC 
+Alimentation TBTS ≤ 6 V AC
+ 
+IP X7 
+IP 00
+1
+Chauffe-eau à poste fixe (eau sanitaire ou combi) 
+Alimentation TBTS ≤ 12 V AC 
+Alimentation TBTS ≤ 6 V AC
+IP X4 
+IP X4 
+IP 00
+1 bis Installation d’hydromassage avec le point d’alimentation IP X4
+2
+Chauffe-eau à poste fixe (eau sanitaire ou combi) 
+Luminaire (hauteur min. 1,6m) 
+Chauffage et ventilateur à poste fixe (classe II) 
+Prise via transfo (100 W max.) 
+Prise via différentiel (sensibilité 10 mA) 
+Alimentation TBTS ≤ 12 V AC
+IP X4 
+IP X4 
+IP X4 
+IP XX 
+IP XX 
+IP 00
+3 Matériel électrique divers 
+Alimentation TBTS ≤ 12 V AC
+IP X1 
+IP 00
+TBTS très basse tension de sécurité
+IP X7 protégé contre les effets d’une immersion temporaire dans l’eau
+IP X4 matériel protégé contre les projections d’eau
+IP X1 matériel protégé contre les chutes verticales de gouttes d’eau
+IP 00 pas de protection
+IP XX nous conseillons de toujours placer les prises dans le volume 3; si impossible,  
+en montage apparent IPX4; en encastré, soin particulier au montage
+
+===== PAGE 20 =====
+
+19
+Canalisations
+Liaisons équipotentielles supplémentaires
+Chauffage du sol
+Il ne peut être fait usage de tubes métalliques ou de câbles armés; les canalisations doivent 
+emprunter des trajets horizontaux et verticaux et être exclusivement destinées au matériel 
+électrique installé dans ces volumes.
+Tous les éléments conducteurs étrangers 
+(baignoire, tube de douche...) et les masses 
+du matériel électrique à basse tension et très 
+basse tensiondoivent être reliés localement 
+aux conducteurs de protection des circuits 
+aboutissant dans la salle d’eau.
+Les résistances électriques doivent être recouvertes d’un grillage métallique relié à la liaison 
+équipotentielle supplémentaire.
+
+===== PAGE 21 =====
+
+20
+Situation Conducteurs isolés Conducteurs nus
+BB1 : peau sèche ≤ 50 V ≤ 25 V
+BB2 : peau mouillée ≤ 25 V ≤ 12 V
+BB3 : peau immergée ≤ 12 V ≤ 6 V
+Généralités
+Transformateurs
+Tension maximale en fonction de l’environnement
+Utilisez exclusivement du matériel électrique sûr, c’est-à-dire du 
+matériel pourvu d’un label ou d’une référence à une norme. Portez 
+également attention aux conditions d’utilisation prescrites par le 
+fabricant.
+Les lampes halogènes ne peuvent être raccordées au réseau public d’alimentation sans 
+interposition d’un transformateur qui convertit le 230 V en tension moins élevée.
+Ce transformateur doit être de type «transformateur de sécurité». Les transformateurs doivent 
+être installés de telle manière qu’ils restent accessibles et qu’ils soient suffisamment ventilés.
+Pour prévenir le risque d’incendie, le transformateur doit être protégé contre les surcharges 
+et les court-circuits du côté secondaire. Certains transfos sont dotés de fusibles ou de 
+disjoncteurs intégrés. Si ce n’est pas le cas, il vous appartient d’installer vous-même une 
+protection adéquate.
+Placez le transformateur à proximité de la lampe (pour réduire la chute de tension), en veillant 
+cependant à maintenir une distance suffisante pour que la lampe ne chauffe pas trop le 
+transformateur.
+Malgré le recours à la TBTS, il faut rester attentif au risque d’incendie, et plus
+particulièrement aux points suivants.
+9. ECLAIRAGE À TRÈS BASSE TENSION DE SÉCURITÉ 
+(TBTS)
+La lampe halogène connaît un succès considérable. L’éclairage halogène se distingue 
+essentiellement par deux caractéristiques intéressantes : sa longévité et son rendement 
+lumineux. Pour se prémunir contre l’électrocution, on utilise dans certains environnements une 
+tension réduite, la «Très Basse T ension de Sécurité» (TBTS).
+
+===== PAGE 22 =====
+
+Puissance 
+lampe 
+en W
+Courant 
+nominal 
+en A
+Protection 
+nominale 
+max.
+2.5m 
+de long 
+(mm2)
+5m 
+de long 
+(mm2)
+7,5m 
+de long 
+(mm2)
+10m 
+de long 
+(mm2)
+15m 
+de long 
+(mm2)
+20 1.7 2 1.5 1.5 1.5 1.5 2.5
+40 3.3 5 1.5 1.5 2.5 4 6
+60 5 6.3 1.5 2.5 4 6 10
+80 6.7 10 1.5 4 6 6 10
+100 8.3 10 2.5 4 6 10 16
+120 10 12 2.5 6 6 10 16
+140 11.7 12 4 6 10 16 16
+160 13.3 16 4 6 10 16 -
+180 15 16 4 10 10 16 -
+200 16.7 20 4 10 10 16 -
+Transformateur de sécurité non fermé
+Transformateur de sécurité fermé
+Transformateur non-résistant aux courts-circuits
+Transformateur résistant aux courts-circuits
+Fusible à prévoir
+Disjoncteur à prévoir
+Protection thermique interne non réparable
+Protection thermique interne réparable
+21
+Conducteurs
+Symboles
+La section des conducteurs en aval du transfo doit être choisie en fonction de l’intensité 
+maximale de courant et de la chute de tension. Les protections requises contre les surcharges 
+et les court-circuits doivent être installées.
+Pour information : section nécessaire (mm²) en fonction de la longueur d’un circuit en 12V pour 
+une chute de tension maximale de ± 3 % et courant nominal de la protection côté secondaire 
+du transfo.
+
+===== PAGE 23 =====
+
+22
+Dérogations pour les visites de contrôle d’une installation électrique 
+datant d’avant le 1er octobre 1981
+En cas de renforcement de la puissance de raccordement au réseau public de distribution 
+d’électricité dans un bâtiment dont l’installation électrique a été réalisée avant le 1er octobre 
+1981, les prescriptions du RGIE s’appliquent aux anciennes installations, à l’exception des points 
+suivants :
+10. DISPOSITIONS DÉROGATOIRES
+Matériel électrique existant en bon état et mis en oeuvre conformément 
+aux règles de l’art admis
+Différentiel de type AC et In < 40 A admis
+Plombage des différentiels si impossible pas nécessaire
+Conducteurs électriques de 1 mm² min., protégés par fusibles 
+de 6 A ou disjoncteurs de 10 A avec pictogramme (1) admis
+Code de couleurs des conducteurs isolés :
+ ■ règles générales
+ ■ jaune/vert comme conducteur actif
+ 
+- pas nécessaire 
+- interdit
+Conduites d’eau, de gaz et autres installées à moins de 3 c 
+des canalisations électriques admis
+Conducteur de terre en cuivre de 6 mm² au min admis
+Conducteur de protection :
+ ■ pas prévu dans la canalisation qui alimente des appareils 
+ qui ne doivent pas être mis à la terre
+ ■ en dehors de la canalisation, s’il n’est pas possible de 
+ le placer à l’intérieur.
+admis 
+ 
+admis
+Liaisons équipotentielles principales pas imposé
+Prises :
+ ■ sans broche de terre, pas du type «sécurité enfant», 
+ plus de 8 par circuit
+ ■ avec broche de terre non raccordée à un conducteur de  
+ protection
+admis 
+ 
+interdit
+Prises apparentes placées dans des locaux secs à moins de 15 cm 
+de hauteur admis
+Un seul circuit d’éclairage admis
+
+===== PAGE 24 =====
+
+23
+(*) pas de restriction de date
+(1) 
+Placement d’un différentiel distinct ≤ 30mA:
+ ■ pour matériels et appareils dans salles d’eau, salles de douches et  
+ salles de bains
+ ■ pour lessiveuse et lave-vaisselle
+ 
+pas imposé (2)
+pas imposé
+Interrupteur unipolaire pour l’éclairage dans la salle de bains admis
+Canalisations électriques dans les salles d’eau, salles de bains et salles 
+de douches :
+ ■ canalisations existantes
+ ■ résistances de chauffage incorporées dans le sol
+ ■ liaisons équipotentielles supplémentaires
+ 
+ 
+admis 
+admis 
+pas imposé
+Dérogations pour les visites de contrôle d’une installation électrique 
+datant d’après le 1er octobre 1981
+1mm 2
+6A
+10A
+Installé avant
+Différentiel de type AC 01/01/1987 permis
+Différentiel de IN < 40A 16/09/1991 permis
+Différentiel de IN ≤ 40A sans le marquage “3000A, 22, 5kA²s” 07/05/2000 permis
+Disjoncteurs et fusibles avec un pouvoir de coupure minimal  
+de 1500A 27/09/1988 permis
+Alimentation d’une lessiveuse en 2,5 mm² , si adapté 
+à la puissance de l’appareil * permis
+Alimentation d’une cuisinière électrique avec deux fois deux 
+conducteurs actifs en parallèle de 4 mm² + PE 4 mm² 
+(à la place de 6 mm²)
+* permis
+Laisser en service des câbles munis d’une armure métallique 
+(du type VFVB) dans les salles de bains 22/07/1986 permis
+Plus de 8 socles de prises de courant par circuit, avec 
+protection adaptée * permis
+Interrupteur unipolaire dans les salles de bains * permis
+Absence du procès-verbal de conformité * permis
+
+===== PAGE 25 =====
+
+11. OBLIGATIONS
+24
+Le propriétaire, le gestionnaire et éventuellement le locataire d’une installation
+électrique sont tenus :
+1. d’en assurer ou d’en faire assurer l’entretien
+2. de prendre les mesures voulues pour que les prescriptions du RGIE soient respectées en 
+permanence
+3. d’avertir immédiatement la direction «Administration de l’Energie» du Service Public 
+Fédéral Economie, PME, Classes moyennes et Energie de tout accident dû aux installations 
+électriques survenu aux personnes
+4. de contrôler régulièrement (tous les mois) le bon fonctionnement des différentiels en 
+agissant sur les boutons test
+5. de détenir le dossier électrique (schémas, rapports de l’organisme de contrôle...)
+6. de contacter l’organisme agréé lors de l’expiration de la date de validité de rapport de 
+contrôle
+
+===== PAGE 26 =====
+
+25
+Le dossier électrique, qui doit être en possession du propriétaire et éventuellement du 
+locataire, comprend, outre les rapports d’inspection, les schémas unifilaires et les schémas de 
+position. Les schémas doivent être présentés en trois exemplaires à l’organisme de contrôle. Ils 
+contiennent toutes les informations voulues, comme illustré ci-dessous :
+12. DOSSIER ÉLECTRIQUE
+h
+h
+7
+6
+5
+4
+3
+2
+1
+XVB  3 x  2 , 5  ²
+hX V B  4  x  4  ²
+h
+1
+2
+V O B  3  x 2, 5  ²
+h
+7
+6
+5
+4
+3
+2
+1
+XFVB 3  x  2 , 5  ²
+XVB  4  x  4  ²
+VOB 1,5  ²
+2
+cen t r a l e  ver w a r m i n g
+chauﬀage central
+6
+5
+4
+3
+2
+1X V B  3  x  2 ,5 ²
+6
+5
+4
+3
+2
+1XVB  3 x  2 , 5  ²
+6
+5
+4
+3
+2
+1X VB 3  x 2 , 5 ²
+7
+X V B  4  x  4  ²
+5
+4
+3
+2
+1XVB  3 x  2 , 5  ²
+VOB 1,5  ²
+VOB 1,5  ²
+3
+9
+6
+7
+8
+5
+4
+3
+2
+1
+3 x
+5 x
+4 x
+7 x
+6
+5
+4
+3
+2
+1
+A
+C
+D
+B
+E
+I N F G H J K L M
+4
+10  A1 0 A20  A2 5  A2 0 A20  A2 0 A2  A1 6 A3 0 m A
+2 5 A16  A2 5 A
+2 0 A
+X VB 1 0 mm² X VB 4 x 6  m m ²
+32  A3 00 m A
+230 V
+L’installateur Pour l’organisme de Le pro-
+priétaire Conducteurs nus
+Nom Nom Nom
+TVA (ou n˚ C.l. + date) Adresse
+Signature Signature Signature
+Date Date Date
+Nombre d‘annexes
+
+===== PAGE 27 =====
+
+26
+Annexe : 
+De :
+Lieu :
+Le propriétaire : 
+Paraphe :
+Le délégué de l’organisme agréé : 
+Paraphe :
+Exemple de schéma de position
+Symboles
+A. Généralités
+K4 K5
+N1
+N1
+N3 J2
+J3
+N3
+K6 K7
+Cou r ant continu
+Cou r ant alternatif , s ymbole génér al
+Cou r ant alternatif monophasé
+Cou r ant alternatif triphasé
+Repr ésentation génér ale d’u n tableau, d’u n coﬀr et électrique
+Ex emple de tableau, de coﬀr et de r épartition avec 5 canalisations
+Boîte de r accor dement, de dériv ation
+Coﬀr et de br anchement
+Bar ette de terr e
+Boîte , boîte d’encastr ement, s ymbole génér al
+Canalisation , s ymbole génér al
+Canalisation souterr aine
+Canalisation aérienne
+Canalisation dans u n conduit
+Ex emple d’u n faisceau de six conduits
+Canalisation encastr ée dans u ne par oi
+Canalisation appar ente posée su r u ne par oi
+Canalisation placée dans u n conduit encastr é dans u ne par oi
+Deux canalisations
+(n) canalisations
+1
+3
+6
+n
+n
+Canalisation à (n) conducteu r s
+Canalisation à 3 conducteu r s
+4
+XVB  3G2,5
+
+===== PAGE 28 =====
+
+27
+B. Appareils électriques
+Exemples
+C. Canalisations
+Cou r ant continu
+Cou r ant alternatif , s ymbole génér al
+Cou r ant alternatif monophasé
+Cou r ant alternatif triphasé
+Repr ésentation génér ale d’u n tableau, d’u n coﬀr et électrique
+Ex emple de tableau, de coﬀr et de r épartition avec 5 canalisations
+Boîte de r accor dement, de dériv ation
+Coﬀr et de br anchement
+Bar ette de terr e
+Boîte , boîte d’encastr ement, s ymbole génér al
+Canalisation , s ymbole génér al
+Canalisation souterr aine
+Canalisation aérienne
+Canalisation dans u n conduit
+Ex emple d’u n faisceau de six conduits
+Canalisation encastr ée dans u ne par oi
+Canalisation appar ente posée su r u ne par oi
+Canalisation placée dans u n conduit encastr é dans u ne par oi
+Deux canalisations
+(n) canalisations
+1
+3
+6
+n
+n
+Canalisation à (n) conducteu r s
+Canalisation à 3 conducteu r s
+4
+XVB  3G2,5
+Cou r ant continu
+Cou r ant alternatif , s ymbole génér al
+Cou r ant alternatif monophasé
+Cou r ant alternatif triphasé
+Repr ésentation génér ale d’u n tableau, d’u n coﬀr et électrique
+Ex emple de tableau, de coﬀr et de r épartition avec 5 canalisations
+Boîte de r accor dement, de dériv ation
+Coﬀr et de br anchement
+Bar ette de terr e
+Boîte , boîte d’encastr ement, s ymbole génér al
+Canalisation , s ymbole génér al
+Canalisation souterr aine
+Canalisation aérienne
+Canalisation dans u n conduit
+Ex emple d’u n faisceau de six conduits
+Canalisation encastr ée dans u ne par oi
+Canalisation appar ente posée su r u ne par oi
+Canalisation placée dans u n conduit encastr é dans u ne par oi
+Deux canalisations
+(n) canalisations
+1
+3
+6
+n
+n
+Canalisation à (n) conducteu r s
+Canalisation à 3 conducteu r s
+4
+XVB  3G2,5
+Remarque : (n) indique toujours le nombre total de conducteurs, y compris  
+le conducteur neutre éventuel et le conducteur de protection.
+Câble VVB ( XVB) à 5 conducteu r s (conducteu r neutr e é v entuel et 
+conducteu r de pr otection compris) de 4 mm/uni00B2 de section placé dans 
+u n tube encastr é dans u ne par oi.
+Câble VVB ( XVB) à 3 conducteu r s de 2,5 mm/uni00B2 de section ﬁx é en 
+appar ent su r u ne par oi.
+4 conducteu r s VOB de 2,5 mm/uni00B2 de section , placés dans u n tube 
+encastr é dans u ne par oi.
+Coupe-cir cuit à fusible
+Coupe-cir cuit à fusible d’u ne intensité nominale de 16 A
+Interrupteu r automatique ou disjoncteu r
+Les lettr es majuscules inscrites à côté de ce s ymbole spéciﬁent le 
+mode de fonctionnement du disjoncteu r . On emploie à cet eﬀet: 
+•    la lettr e M pou r le déclencheu r à maximu m de cou r ant
+•    la lettr e O pou r le déclencheu r à manque de tension
+•    la lettr e Δ pou r le disjoncteu r de terr e à r elais diﬀér entiels
+Lor sque le disjoncteu r est mu ni de plusieu r s déclencheu r s 
+fonctionnant dans des conditions diﬀér entes , on sépar e les 
+inscriptions corr espondantes par le signe +, le nombr e de pôles 
+pr otégés par des déclencheu r s est inscrit en indice .
+XVB  5G4
+VVB  5 x 42
+5
+VVB  3 x 2,52
+4
+VOB 2,5VOB 2,52
+16A
+Disjoncteu r tripolair e mu ni de deux déclencheu r s à maximu m de 
+cou r ant et d’u n déclencheu r à manque de tensionM2 + 0
+Dispositif de pr otection à cou r ant diﬀér entiel r ésiduel, /uni0394In  = 300 mA300
+
+===== PAGE 29 =====
+
+28
+D. Dispositifs de protection
+Câble VVB ( XVB) à 5 conducteu r s (conducteu r neutr e é v entuel et 
+conducteu r de pr otection compris) de 4 mm/uni00B2 de section placé dans 
+u n tube encastr é dans u ne par oi.
+Câble VVB ( XVB) à 3 conducteu r s de 2,5 mm/uni00B2 de section ﬁx é en 
+appar ent su r u ne par oi.
+4 conducteu r s VOB de 2,5 mm/uni00B2 de section , placés dans u n tube 
+encastr é dans u ne par oi.
+Coupe-cir cuit à fusible
+Coupe-cir cuit à fusible d’u ne intensité nominale de 16 A
+Interrupteu r automatique ou disjoncteu r
+Les lettr es majuscules inscrites à côté de ce s ymbole spéciﬁent le 
+mode de fonctionnement du disjoncteu r . On emploie à cet eﬀet: 
+•    la lettr e M pou r le déclencheu r à maximu m de cou r ant
+•    la lettr e O pou r le déclencheu r à manque de tension
+•    la lettr e Δ pou r le disjoncteu r de terr e à r elais diﬀér entiels
+Lor sque le disjoncteu r est mu ni de plusieu r s déclencheu r s 
+fonctionnant dans des conditions diﬀér entes , on sépar e les 
+inscriptions corr espondantes par le signe +, le nombr e de pôles 
+pr otégés par des déclencheu r s est inscrit en indice .
+XVB  5G4
+VVB  5 x 42
+5
+VVB  3 x 2,52
+4
+VOB 2,5VOB 2,52
+16A
+Disjoncteu r tripolair e mu ni de deux déclencheu r s à maximu m de 
+cou r ant et d’u n déclencheu r à manque de tensionM2 + 0
+Dispositif de pr otection à cou r ant diﬀér entiel r ésiduel, /uni0394In  = 300 mA300
+Exemples
+26
+P etit disjoncteu r , I n  = 20 A
+Prise de terr e , mise à la terr e
+Interrupteu r à lampe témoin . Cette lampe brille en permanence et 
+sert à r etr ouv er l’interrupteu r dans l’obscu rité
+Interrupteu r u nipolair e à ouv ertu r e r etar dée
+Interrupteu r bipolair e
+Interrupteu r tripolair e
+Commutateu r u nipolair e (double allu mage : pou r établir ou 
+interr ompr e sépar ément deux cir cuits d’u n seul endr oit)
+Interrupteu r u nipolair e va-et-vient (à deux dir ections : pou r établir ou 
+interr ompr e u n cir cuit de deux endr oits diﬀér ents)
+Interrupteu r bipolair e va-et-vient (à deux dir ections)
+Interrupteu r , s ymbole génér al
+Commutateu r intermédiair e pou r va-et-vient (multidir ections : 
+associé à deux interrupteu r s va-et-vient aux deux e xtr émités , il 
+permet d’établir ou d’interr ompr e u n cir cuit d’u n nombr e quelconque 
+d’endr oits)
+Réglage d’intensité
+Interrupteu r u nipolair e à tir ette
+16A
+20A
+t
+Interrupteu r u nipolair e à lampe de signalisation . La lampe brille 
+lor sque l’appar eil desservi est en service
+Bouton poussoir
+Bouton poussoir à lampe témoin . P ou r r etr ouv er le bouton poussoir 
+dans l’obscu rité
+Bouton poussoir à accès pr otégé (vitr e à briser)
+
+===== PAGE 30 =====
+
+29
+E. Interrupteurs
+26
+P etit disjoncteu r , I n  = 20 A
+Prise de terr e , mise à la terr e
+Interrupteu r à lampe témoin . Cette lampe brille en permanence et 
+sert à r etr ouv er l’interrupteu r dans l’obscu rité
+Interrupteu r u nipolair e à ouv ertu r e r etar dée
+Interrupteu r bipolair e
+Interrupteu r tripolair e
+Commutateu r u nipolair e (double allu mage : pou r établir ou 
+interr ompr e sépar ément deux cir cuits d’u n seul endr oit)
+Interrupteu r u nipolair e va-et-vient (à deux dir ections : pou r établir ou 
+interr ompr e u n cir cuit de deux endr oits diﬀér ents)
+Interrupteu r bipolair e va-et-vient (à deux dir ections)
+Interrupteu r , s ymbole génér al
+Commutateu r intermédiair e pou r va-et-vient (multidir ections : 
+associé à deux interrupteu r s va-et-vient aux deux e xtr émités , il 
+permet d’établir ou d’interr ompr e u n cir cuit d’u n nombr e quelconque 
+d’endr oits)
+Réglage d’intensité
+Interrupteu r u nipolair e à tir ette
+16A
+20A
+t
+Interrupteu r u nipolair e à lampe de signalisation . La lampe brille 
+lor sque l’appar eil desservi est en service
+Bouton poussoir
+Bouton poussoir à lampe témoin . P ou r r etr ouv er le bouton poussoir 
+dans l’obscu rité
+Bouton poussoir à accès pr otégé (vitr e à briser)
+Minuterie
+Interrupteu r hor air e
+T élérupteu r
+Thermostat
+Contr ôleu r de r onde ou dispositif de verr ouillage électrique par 
+serru r e
+Socle de prise de cou r ant, s ymbole génér al
+Socle pou r plusieu r s prises de cou r ant (3 dans l’illustr ation)
+Socle de prise de cou r ant semi-étanche , étanche ou hermétique
+Socle de prise de cou r ant avec contact pou r conducteu r de 
+pr otection
+Socle de prise de cou r ant avec pr otection «enfant»
+Socle de prise de cou r ant avec contact pou r conducteu r de 
+pr otection et avec pr otection «enfant»
+Socle de prise de cou r ant avec interrupteu r bipolair e
+Socle de prise de cou r ant avec interrupteu r bipolair e de verr ouillage
+Socle de prise de cou r ant avec tr ansformateu r de sépar ation des 
+cir cuits (par e xemple : prise pou r r asoir)
+t
+3
+h
+
+===== PAGE 31 =====
+
+30
+G. Appareils d’utilisation
+Minuterie
+Interrupteu r hor air e
+T élérupteu r
+Thermostat
+Contr ôleu r de r onde ou dispositif de verr ouillage électrique par 
+serru r e
+Socle de prise de cou r ant, s ymbole génér al
+Socle pou r plusieu r s prises de cou r ant (3 dans l’illustr ation)
+Socle de prise de cou r ant semi-étanche , étanche ou hermétique
+Socle de prise de cou r ant avec contact pou r conducteu r de 
+pr otection
+Socle de prise de cou r ant avec pr otection «enfant»
+Socle de prise de cou r ant avec contact pou r conducteu r de 
+pr otection et avec pr otection «enfant»
+Socle de prise de cou r ant avec interrupteu r bipolair e
+Socle de prise de cou r ant avec interrupteu r bipolair e de verr ouillage
+Socle de prise de cou r ant avec tr ansformateu r de sépar ation des 
+cir cuits (par e xemple : prise pou r r asoir)
+t
+3
+h
+P oint d’attente d’appar eil d’éclair age , r epr ésenté avec canalisation . 
+P oint lu mineux
+P oint d’attente d’appar eil d’éclair age en applique mu r ale
+Lu minair e à ﬂuor escence , s ymbole génér al
+Lu minair e à tr ois tubes ﬂuor escents
+Pr ojecteu r , s ymbole génér al
+Pr ojecteu r à faisceau peu div er gent 
+Pr ojecteu r à faisceau div er gent 
+Lu minair e avec interrupteu r u nipolair e incorpor é
+Appar eil d’éclair age de sécu rité su r cir cuit spécial
+Bloc autonome d’éclair age de sécu rité
+Appar eil auxiliair e pou r lampe à déchar ge
+Sonnerie
+Vibr eu r , tr embleu r
+Tr ompe , corne
+Sir ène
+3
+
+===== PAGE 32 =====
+
+31
+P oint d’attente d’appar eil d’éclair age , r epr ésenté avec canalisation . 
+P oint lu mineux
+P oint d’attente d’appar eil d’éclair age en applique mu r ale
+Lu minair e à ﬂuor escence , s ymbole génér al
+Lu minair e à tr ois tubes ﬂuor escents
+Pr ojecteu r , s ymbole génér al
+Pr ojecteu r à faisceau peu div er gent 
+Pr ojecteu r à faisceau div er gent 
+Lu minair e avec interrupteu r u nipolair e incorpor é
+Appar eil d’éclair age de sécu rité su r cir cuit spécial
+Bloc autonome d’éclair age de sécu rité
+Appar eil auxiliair e pou r lampe à déchar ge
+Sonnerie
+Vibr eu r , tr embleu r
+Tr ompe , corne
+Sir ène
+3
+Moteur
+Transformateur
+Compteur
+M
+kWh
+Horloge
+Horloge-mèr e
+Gâche électrique de porte
+V entilateu r
+(r epr ésenté avec canalisation électrique)
+Appar eil de chauﬀage
+Appar eil de chauﬀage à accu mulation
+Appar eil de chauﬀage à accu mulation 
+avec ventilateu r incorpor é
+Chauﬀe-eau électrique
+Chauﬀe-eau à accu mulation
+Appar eil électr oménager ﬁx e , s ymbole génér al
+Cuisinièr e électrique
+Fou r à micr o-ondes
+Fou r électrique
+Lessiv euse
+Séchoir
+Lave-v aisselle
+Frigo
+~~~
+Congélateu r , su r gélateu r
+
+===== PAGE 33 =====
+
+32
+Les armoires électriques de chantier sont utilisées comme raccordements temporaires, afin 
+d’approvisionner en électricité les grues, les bétonnières, les perceuses, etc.
+Le coffret de chantier présente les caractéristiques suivantes : 
+ ■ matériel non-combustible correctement fixé
+ ■ degré de protection : IP44 minimum (étanche aux projections d’eau) pour installation à 
+extérieur
+ ■ possibilité de fermeture à clé pour les installations accessibles
+ ■ un interrupteur différentiel général d’une sensibilité maximale de 300 mA (ΔIn) et d’une 
+intensité nominale au moins égal à 40 A (In)
+ ■ protections contre les surintensités adaptées en fonction des canalisations et prises
+ ■ protection contre les contacts directs avec des éléments sous tension
+ ■ pictogramme d’avertissement d’un “danger électrique”
+ 
+Par ailleurs, il est indispensable de prendre contact avec le gestionnaire du réseau de 
+distribution, afin de s’informer des exigences complémentaires éventuelles applicables aux 
+coffrets de chantier (par exemple : concernant le montage du compteur kWh).
+Raccordement 
+Le raccordement peut s’effectuer avec un câble provisoire ou définitif. Prière de vous adresser 
+à ce sujet au gestionnaire du réseau de distribution.
+13. DISTRIBUTION D’ÉLECTRICITÉ SUR CHANTIERS
+
+===== PAGE 34 =====
+
+33
+Ces contrôles doivent être effectués par un organisme de contrôle agréé.
+Contrôle de conformité
+Toute installation à basse tension, même si elle est alimentée par le biais d’une installation 
+privée, doit être soumise à un contrôle de conformité avant sa mise en service. Par ailleurs, 
+après modification, renforcement du raccordement ou extension significative de l’installation 
+(par ex. ajout d’un circuit), l’installation électrique doit être contrôlée.
+Contrôles périodiques
+Toute installation électrique domestique ayant été réalisée tout au plus il y a 25 ans, disposant 
+ou non d’un procès-verbal de conformité, doit faire l’objet d’un premier contrôle périodique. Les 
+contôles périodiques suivants respecteront la même périodicité (tous les 25 ans). La périodicité 
+de 25 ans n’est valable que si l’installation est conforme au RGIE.
+14. CONTRÔLE
+
+===== PAGE 35 =====
+
+“CONFIEZ LE CONTRÔLE DE VOTRE
+INSTALLATION ÉLECTRIQUE À
+UN SPÉCIALISTE DE VINÇOTTE”
+34
+Domaine d’application
+Le présent article s’applique à la vente d’une unité d’habitation :
+ ■ équipée d’une ancienne installation électrique n’ayant subi aucune modification importante 
+ou extension notable depuis le 1er octobre 1981
+ ■ équipée d’une ancienne installation électrique ayant subi une modification importante ou 
+extension notable depuis le 1er octobre 1981 mais dont la partie antérieure au 1er octobre 
+1981 n’a pas fait l’objet d’une visite de contrôle 
+Ne sont pas considérés comme unité d’habitation pour l’application du présent article :
+ ■ les couvents
+ ■ les hôpitaux
+ ■ les prisons
+ ■ les maisons de repos
+ ■ les pensionnats
+ ■ les hôtels
+ ■ les établissements d’instruction 
+Lorsque l’unité d’habitation fait partie d’un régime de copropriété, les obligations reprises 
+ci-après ne sont applicables qu’aux parties privatives des unités d’habitation concernées. En 
+outre, ces obligations ne sont pas applicables aux garages, parkings, entrepôts et autres lieux 
+faisant partie d’une unité d’habitation mais dont l’installation électrique est alimentée par le 
+compteur électrique au nom des copropriétaires ou de l’association des copropriétaires.
+Ces obligations ne sont également pas applicables aux unités d’habitation faisant l’objet d’une 
+expropriation.
+15. VISITE DE CONTRÔLE DES INSTALLATIONS À BASSE  
+ TENSION LORS DE LA VENTE D’UNE UNITÉ D’HABITATION
+
+===== PAGE 36 =====
+
+35
+Modalités de la visite de contrôle
+1. Obligations
+Lors de la vente d’une unité d’habitation tel que visée dans le domaine d’application, le 
+vendeur est obligé :
+ ■ de faire exécuter une visite de contrôle de l’installation électrique
+ ■ de faire mentionner dans l’acte authentique, la date du procès-verbal de la visite de 
+contrôle et le fait de la remise dudit procès-verbal à l’acheteur
+Lorsque le vendeur et l’acheteur s’accordent sur le fait qu’une visite de contrôle de l’installation 
+électrique est superflue et inutile, parce que l’acheteur va démolir le bâtiment ou rénover 
+complètement l’installation électrique, le vendeur est obligé de faire mentionner cet accord 
+dans l’acte authentique.
+Il est également obligé de mentionner dans ce même acte que l’acheteur doit informer par 
+écrit la Direction générale Énergie, Division Infrastructure, de la démolition du bâtiment ou de la 
+rénovation complète de l’installation électrique. Cette dernière transmet à l’acheteur un numéro 
+de dossier et l’invite à lui remettre un procès-verbal de contrôle dès que la nouvelle installation 
+électrique sera mise en service.
+Dans le cas d’impossibilité de faire le contrôle à l’occasion d’une vente ordonnée sur décision 
+de justice, celui qui requiert la vente est obligé de faire mentionner, dans l’acte authentique 
+ou dans le procès-verbal de l’adjudication publique, l’absence de la visite de contrôle de 
+l’installation électrique et l’intérêt pour l’acheteur de faire procéder à ce contrôle.
+Dans le cas d’une visite de contrôle donnant lieu à un procès-verbal négatif, le vendeur est 
+obligé de faire mentionner dans l’acte authentique l’obligation pour l’acheteur de communiquer 
+par écrit son identité et la date de l’acte de vente à l’organisme agréé qui a exécuté la visite de 
+contrôle de l’installation électrique.
+Après cette communication, l’acheteur a le libre choix de désigner un organisme agréé pour 
+une nouvelle visite de contrôle afin de vérifier la disparition des infractions, et ce dans un délai 
+de 18 mois, prenant cours le jour de l’acte de vente. Si l’acheteur désigne un autre organisme 
+agréé, ce dernier en informe l’organisme agréé qui a rédigé le premier procès-verbal de visite 
+de contrôle. Dans le cas où, lors de cette nouvelle visite de contrôle, des infractions subsistent,
+les prescriptions de l’article 274.02 sont d’application.
+
+===== PAGE 37 =====
+
+36
+2. Cas de démolition ou rénovation totale
+Lors d’une démolition du bâtiment ou d’une rénovation totale de l’installation électrique, les 
+dispositions de l’article 270 sont d’application.
+3. Objet de la visite de contrôle
+La visite de contrôle a pour but de constater la conformité de l’installation électrique avec :
+ ■ les prescriptions du présent règlement qui la concernent, à l’exception des prescriptions 
+prévues à l’article 278, pour la partie dont la construction a été entamée après le 30 
+septembre 1981
+ ■ les prescriptions des articles 1er à 279 qui la concernent pour la partie dont la construction a 
+été entamée avant le 1er octobre 1981 
+Avez-vous besoin d’un contrôle d’une ou de plusieurs 
+installations de votre habitation ? Découvrez dès lors tous 
+nos services pour logements individuels sur notre site web 
+www.vincotte.be.
+Vous pourrez y faire vos demandes d’offre ou de rendez-
+vous en ligne. Pour toutes vos questions techniques, veuillez 
+contacter un de nos sièges régionaux. Vous trouverez 
+toutes les adresses au dos de la présente brochure.
+
+===== PAGE 38 =====
+
+vincotte.be
+Siège Social
+Jan Olieslagerslaan 35
+1800 Vilvoorde
+Tel: +32 2 674 57 11
+Offices
+Jan Olieslagerslaan 35
+1800 Vilvoorde
+Tel: +32 2 674 57 11
+brussels@vincotte.be
+Noordersingel 23
+2140 Antwerpen
+Tel: +32 3 221 86 11
+antwerpen@vincotte.be
+Rue Phocas Lejeune 11
+5032 Gembloux
+Tel: +32 81 432 611
+gembloux@vincotte.be
+Bollebergen 2a bus 12
+9052 Gent
+Tel: +32 9 244 77 11
+gent@vincotte.be
+Technical Training Center
+Leuvensesteenweg 248 A
+Tel: +32 2 674 58 57
+1800 Vilvoorde
+academy@vincotte.be
+Editeur responsable: Jos Windey  •  Jan Olieslagerslaan 35  •  B-1800 Vilvoorde
