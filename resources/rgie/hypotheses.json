@@ -1,0 +1,102 @@
+[
+  {
+    "id": "HYP-DIFF-001",
+    "titre": "Fuite à la terre probable (déclenchements intempestifs du différentiel)",
+    "gravite": "ELEVÉ",
+    "risque": ["electrocution", "incendie"],
+    "declencheurs": {
+      "erreurs_rg": ["TERRE-001", "SDB-030-2025", "DIFF-GENERAL-001"],
+      "symptomes":  ["diff_declenche", "odeur_brule", "choc_electrique", "diff_declenche_nuit"]
+    },
+    "scoring": {
+      "poids_erreur":      3,
+      "poids_symptome":    2,
+      "poids_tag":         1,
+      "seuil_activation":  2
+    },
+    "questions":    ["Q_DIFF_01", "Q_DIFF_02", "Q_TERRE_01"],
+    "verifications": [
+      { "action": "Mesurer l'impédance de boucle de défaut",   "cible": "Tableau électrique",  "attendu": "< 200 Ω" },
+      { "action": "Tester chaque circuit avec un testeur de différentiel", "cible": "Tous circuits" },
+      { "action": "Mesurer la résistance d'isolement par circuit", "cible": "Tableau électrique", "attendu": "> 1 MΩ" }
+    ],
+    "corrections": [
+      { "action": "Identifier et isoler le circuit défaillant (test arc par arc à l'aide d'un contrôleur d'isolement)", "priorite": 1 },
+      { "action": "Vérifier les appareils branchés pour déterminer lequel présente un défaut d'isolement", "priorite": 2 },
+      { "action": "Améliorer la prise de terre si résistance > 30 Ω", "priorite": 3 }
+    ]
+  },
+  {
+    "id": "HYP-SDB-001",
+    "titre": "Non-conformité salle de bains (30 mA / équipotentialité absente)",
+    "gravite": "ELEVÉ",
+    "risque": ["electrocution"],
+    "declencheurs": {
+      "erreurs_rg": ["SDB-030-2025", "SDB-EQUI-001"],
+      "symptomes":  ["diff_declenche_sdb", "choc_sdb", "odeur_brule_sdb"]
+    },
+    "scoring": {
+      "poids_erreur":      3,
+      "poids_symptome":    2,
+      "poids_tag":         1,
+      "seuil_activation":  2
+    },
+    "questions":    ["Q_SDB_01"],
+    "verifications": [
+      { "action": "Vérifier la continuité de la liaison équipotentielle SDB", "cible": "Salle de bains", "attendu": "Toutes masses métalliques reliées, R < 1 Ω" },
+      { "action": "Contrôler le différentiel 30 mA dédié (déclenchement < 30 ms)", "cible": "Tableau électrique" }
+    ],
+    "corrections": [
+      { "action": "Installer un différentiel 30 mA dédié pour le circuit salle de bains", "priorite": 1 },
+      { "action": "Réaliser la liaison équipotentielle supplémentaire (LES) en raccordant toutes les masses au conducteur PE", "priorite": 2 }
+    ]
+  },
+  {
+    "id": "HYP-PRISES-001",
+    "titre": "Surcharge probable du circuit prises (> 8 prises par circuit)",
+    "gravite": "MOYEN",
+    "risque": ["surcharge", "incendie"],
+    "declencheurs": {
+      "erreurs_rg": ["PRISES-2023", "CABLE-001"],
+      "symptomes":  ["disjoncteur_saute", "prise_chaude", "odeur_brule_circuit"]
+    },
+    "scoring": {
+      "poids_erreur":      3,
+      "poids_symptome":    2,
+      "poids_tag":         1,
+      "seuil_activation":  2
+    },
+    "questions":    ["Q_PRISES_01"],
+    "verifications": [
+      { "action": "Compter le nombre de prises raccordées sur chaque circuit", "cible": "Tous circuits prises" },
+      { "action": "Mesurer la charge (ampères) en fonctionnement normal",      "cible": "Circuit prises concerné" }
+    ],
+    "corrections": [
+      { "action": "Créer un ou plusieurs nouveaux circuits prises pour respecter la limite de 8 prises maximum par circuit", "priorite": 1 },
+      { "action": "Déplacer les appareils à forte consommation (four, lave-linge) sur des circuits dédiés",                  "priorite": 2 }
+    ]
+  },
+  {
+    "id": "HYP-VE-001",
+    "titre": "Protection inadaptée pour la borne de recharge véhicule électrique",
+    "gravite": "MOYEN",
+    "risque": ["electrocution", "incendie"],
+    "declencheurs": {
+      "erreurs_rg": ["VE-001"],
+      "symptomes":  ["diff_declenche_borne_ve", "erreur_borne_ve"]
+    },
+    "scoring": {
+      "poids_erreur":      3,
+      "poids_symptome":    2,
+      "poids_tag":         1,
+      "seuil_activation":  2
+    },
+    "questions":    ["Q_VE_01"],
+    "verifications": [
+      { "action": "Identifier le type exact du différentiel installé sur le circuit borne VE", "cible": "Tableau électrique" }
+    ],
+    "corrections": [
+      { "action": "Remplacer le différentiel AC par un type A (minimum) ou type B si chargeur triphasé", "priorite": 1 }
+    ]
+  }
+]

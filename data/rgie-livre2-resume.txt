@@ -1,0 +1,432 @@
+Ce document concerne le règlement général sur les installations électriques à haute tension en Belgique.
+Règlement Général sur les Installations Électriques
+Ce document régule les installations électriques à haute tension en Belgique, définissant les normes de sécurité et les domaines d'application.
+
+Version et Références
+
+Version 05 publiée le 29/10/2025, applicable à partir du 01/04/2026. ​
+Références aux arrêtés royaux et errata des versions précédentes.
+
+
+
+Domaine d'Application des Installations
+Ce chapitre précise les installations concernées par le règlement et les exceptions.
+
+Régime Général
+
+S'applique à toutes les installations à haute tension jusqu'à 10.000 Hz.
+
+
+Exceptions
+
+Exclut les appareils à haute tension de moins de 500 VA, les installations de transport d'énergie, et celles gérées par l'autorité militaire.
+
+
+
+Objectif du Livre 2
+Le but est de garantir un niveau minimum de sécurité pour les installations électriques à haute tension.
+
+Prescriptions de Sécurité
+
+Définit les normes pour le choix, la réalisation, la protection, l'utilisation et le contrôle des installations.
+
+
+
+Principes Fondamentaux des Installations
+Ce chapitre établit les règles de conception et de réalisation des installations électriques.
+
+Conception et Réalisation
+
+Les installations doivent être conçues selon leur tension nominale et réalisées avec du matériel sûr.
+
+
+Entretien et Modifications
+
+Les réparations doivent respecter les normes de sécurité et les règles de l'art.
+
+
+
+Caractéristiques des Installations Électriques
+Les définitions et caractéristiques des installations électriques sont fournies.
+
+Termes Généraux
+
+Définitions des installations fixes, temporaires, mobiles, et des lieux de service.
+
+
+Schémas Mis à la Terre
+
+Les schémas de mise à la terre doivent respecter les règles de l'art.
+
+
+
+Tensions et Domaines de Tension
+Ce chapitre définit les différentes catégories de tension pour les installations électriques.
+
+Tensions Alternatives
+
+Haute tension : 1.000 V à 50.000 V (1ère catégorie) et > 50.000 V (2ème catégorie). ​
+
+
+Tensions Continues
+
+Haute tension : > 1.500 V. ​
+
+
+
+Protection Contre les Chocs Électriques
+Les mesures de protection contre les chocs électriques sont détaillées.
+
+Définitions Clés
+
+Choc électrique, contacts directs et indirects, courant de choc, et parties actives.
+
+
+Tensions Limites
+
+Tensions limites conventionnelles définies pour la sécurité des personnes.
+
+
+
+Mises à la Terre et Électrodes
+Ce chapitre traite des exigences relatives aux mises à la terre des installations.
+
+Installation de Mise à la Terre
+
+Comprend les prises de terre et les conducteurs de protection.
+
+
+Électrodes de Terre
+
+Doivent être enfouies et interconnectées pour assurer une bonne liaison électrique.
+
+
+
+Installation de mise à la terre
+Les installations de mise à la terre sont essentielles pour la sécurité électrique, permettant de prévenir les chocs électriques et d'assurer la protection des personnes et des biens.
+
+Installation de mise à la terre locale : Ensemble limité avec prises de terre interconnectées et conducteurs de protection.
+Mise à la terre globale : Ensemble d'installations locales interconnectées par liaison galvanique.
+Conducteur de protection : Utilisé pour protéger contre les chocs électriques, reliant des masses à la terre.
+Zone équipotentielle : Espace sans différence de potentiel dangereux en cas de défaut.
+Élévation du potentiel de terre : Tension entre l'installation de mise à la terre et la terre neutre due à un courant de défaut.
+
+Circuits électriques
+Les circuits électriques sont des éléments fondamentaux des installations électriques, organisés pour assurer la sécurité et le bon fonctionnement.
+
+Circuit élémentaire : Portion entre deux dispositifs de protection contre les surintensités.
+Courant alternatif et continu : Types de courants utilisés, avec des caractéristiques distinctes.
+Surintensité : Courant supérieur au nominal, pouvant causer des dommages.
+Courant différentiel résiduel : Somme des courants dans un circuit, essentiel pour la sécurité.
+
+Canalisations électriques
+Les canalisations électriques sont des systèmes de conducteurs destinés à assurer le passage de l'électricité en toute sécurité.
+
+Conducteur électrique : Corps destiné à faire passer un courant électrique.
+Câble : Ensemble de conducteurs isolés, souvent protégé par une gaine.
+Modes de pose : Différentes méthodes pour installer les câbles, comme les conduits ou les goulottes.
+Support : Éléments qui soutiennent les conducteurs, comme les poteaux ou pylônes.
+
+Matériel électrique
+Le matériel électrique comprend tous les appareils et machines utilisés pour la production et la distribution d'énergie électrique.
+
+Machine ou appareil électrique : Engins pour la production ou l'utilisation d'énergie électrique.
+Matériel mobile : Appareils pouvant être déplacés facilement pendant leur fonctionnement.
+Trolley : Dispositif pour alimenter des machines mobiles.
+
+Sectionnement et commande
+Les systèmes de sectionnement et de commande sont cruciaux pour la sécurité des installations électriques.
+
+Coupure omnipolaire : Interruption de tous les conducteurs d'un circuit.
+Coupure de sécurité : Mesures pour éviter les dangers lors de travaux sur des machines.
+Commande manuelle et automatique : Différentes méthodes pour contrôler l'alimentation électrique.
+
+Influence des conditions externes
+Les influences externes peuvent affecter la sécurité et le fonctionnement des installations électriques.
+
+Conditions d'environnement : Facteurs comme la température, l'humidité et la présence d'eau.
+Présence de corps solides : Risques liés à des objets étrangers dans l'environnement.
+Substances corrosives : Impact des produits chimiques sur les installations électriques.
+
+Travaux et vérification des installations
+Les travaux sur les installations électriques doivent être réalisés avec précaution pour garantir la sécurité.
+
+Travaux électriques et non électriques : Distinction entre les types de travaux et leurs risques associés.
+Contrôle de conformité : Vérifications nécessaires avant la mise en service des installations.
+Chargé des travaux : Personne responsable de la direction des travaux électriques.
+
+Schémas et documents des installations
+Les schémas et documents sont essentiels pour la compréhension et la gestion des installations électriques.
+
+Schéma de circuits : Représentation graphique des circuits et de leurs interconnexions.
+Plan de position : Indication de la localisation des équipements et des circuits.
+Document des influences externes : Informations sur les conditions environnementales affectant l'installation.
+
+Protection contre les chocs électriques par contact direct
+Cette section traite des mesures de protection nécessaires pour éviter les chocs électriques dans les installations à haute tension.
+
+Les parties actives non protégées doivent être éloignées des surfaces de circulation de 2,5 m.
+Des obstacles en métal ou en matière isolante doivent entourer les parties actives non protégées.
+La hauteur des obstacles doit être d'au moins 1,75 m et leur base ne doit pas être inférieure à 0,50 m.
+Des distances minimales doivent être respectées entre les parties actives et les obstacles, selon la tension nominale.
+
+Protection dans les lieux exclusifs du service électrique
+Cette section décrit les exigences spécifiques pour les lieux réservés à l'exploitation des installations électriques.
+
+Les obstacles doivent empêcher l'accès fortuit aux parties actives non protégées.
+Les cloisons doivent avoir une hauteur minimale de 2 m et ne pas permettre l'escalade.
+Les ouvertures fonctionnelles doivent être conçues pour éviter l'introduction de corps étrangers.
+Seules les personnes qualifiées peuvent accéder à ces lieux.
+
+Protection contre les chocs électriques par contact indirect
+Cette section aborde les mesures à prendre pour prévenir les chocs électriques causés par des défauts d'isolation.
+
+Les masses de l'installation doivent être reliées à une prise de terre.
+La résistance de terre doit être inférieure ou égale à 10 Ω, ou 15 Ω si raccordée à une terre globale.
+Des mesures de protection passives et actives doivent être mises en œuvre pour éviter les tensions de contact dangereuses.
+
+Protection contre les effets thermiques
+Cette section traite des mesures à prendre pour protéger les personnes et les biens des effets thermiques des installations électriques.
+
+Les surfaces accessibles des équipements électriques ne doivent pas dépasser des températures spécifiques (ex. 55 °C pour les surfaces métalliques).
+Les équipements doivent être protégés contre les brûlures par éloignement ou séparation avec des matériaux non combustibles.
+Des mesures doivent être prises pour éviter les risques d'incendie et d'explosion.
+
+Protection électrique contre les surintensités
+Cette section explique comment protéger les installations électriques contre les courants excessifs.
+
+La protection doit interrompre le courant avant que des dommages ne surviennent.
+Le courant admissible d'une canalisation dépend de plusieurs facteurs, y compris la section des conducteurs et la température ambiante.
+Les Ministres peuvent fixer des modalités pour le calcul du courant admissible.
+
+Protection contre les courts-circuits
+Le matériel électrique doit être protégé contre les courts-circuits par des dispositifs appropriés.
+
+Les dispositifs de protection doivent avoir un pouvoir de coupure égal ou supérieur à la puissance du court-circuit potentiel.
+La puissance de court-circuit est établie selon la configuration du réseau lors d'une journée moyenne d'exploitation.
+Les machines et appareils doivent supporter les courants de court-circuit sans danger pour les personnes.
+
+Protection contre les surcharges
+Le matériel électrique est protégé contre les surcharges par des dispositifs adaptés.
+
+Des exceptions existent pour certains appareils protégés par leur construction ou des dispositifs spéciaux.
+Les dispositifs de protection ne sont pas nécessaires en amont d'un transformateur si un dispositif est présent en aval.
+
+Protection contre les surtensions
+Les personnes et les biens doivent être protégés contre les surtensions.
+
+Les dispositifs de protection doivent être installés pour éviter tout danger pour les personnes et les biens.
+
+Protection contre la baisse de tension
+Des mesures doivent être prises pour éviter les dangers liés à une baisse de tension.
+
+Des dispositifs de protection sont nécessaires pour les consommateurs de sécurité et critiques, assurant leur fonctionnement lors de baisses de tension.
+
+Protection contre les effets biologiques
+Des mesures doivent être prises si des champs électriques et magnétiques causent des effets néfastes.
+
+Les pièces métalliques exposées à un potentiel dangereux doivent être mises à la terre.
+
+Protection contre la contamination
+Des précautions doivent être prises pour éviter la contamination des produits traités par le matériel électrique.
+Protection contre les mouvements
+Les installations électriques doivent être conçues pour résister aux déformations dues aux mouvements.
+Règles communes pour le matériel électrique
+Le matériel électrique doit être choisi et installé pour garantir la sécurité des personnes et des biens.
+
+Les installations doivent permettre une dissipation adéquate de la chaleur.
+Des règles spécifiques sont définies pour la protection contre l'incendie.
+
+Conformité aux normes
+Le matériel électrique doit respecter les normes de sécurité.
+
+La conformité est présumée si le matériel respecte les critères du Code Économique ou a subi des essais de sécurité.
+
+Choix et utilisation selon les influences externes
+Le choix du matériel électrique doit tenir compte des influences externes.
+
+Des protections complémentaires peuvent être ajoutées si le matériel ne répond pas aux exigences.
+
+Accessibilité du matériel électrique
+Les machines et appareils doivent être conçus pour faciliter leur manœuvre et leur entretien.
+
+Les canalisations doivent permettre la mesure de leur isolement et la localisation des défauts.
+
+Identification du matériel électrique
+Les équipements doivent être clairement identifiés pour éviter toute confusion.
+Règles complémentaires pour les canalisations
+Les canalisations électriques doivent être installées selon les règles de l'art.
+
+Divers modes de pose sont autorisés, y compris aérien, souterrain, et dans des conduits.
+
+Choix des canalisations selon les influences externes
+Les canalisations doivent être adaptées aux conditions environnementales.
+
+Des précautions spécifiques sont nécessaires en fonction de la température, de l'humidité, et des substances corrosives.
+
+Protection contre les surintensités
+Les conducteurs doivent être protégés contre les surintensités, sauf exceptions pour certains circuits critiques.
+
+Les sections des conducteurs doivent être choisies selon les règles de l'art.
+
+Chute de tension
+Les chutes de tension doivent être limitées selon les normes en vigueur.
+Jonctions des canalisations
+Les jonctions doivent avoir un isolement et une herméticité équivalents à ceux des câbles.
+Limitation de la propagation du feu
+Les conducteurs et câbles doivent répondre à des exigences de sécurité contre l'incendie.
+
+Des caractéristiques spécifiques sont requises pour les câbles installés séparément ou en faisceaux.
+
+Voisinage avec d'autres canalisations
+Des mesures doivent être prises pour éviter les accumulations de gaz près des canalisations électriques.
+Règles pour les lignes aériennes
+Des prescriptions spécifiques s'appliquent aux installations de lignes aériennes.
+Canalisations électriques souterraines
+Les câbles doivent être posés à une profondeur minimale de 0,60 m.
+
+Des protections doivent être mises en place pour éviter les dommages mécaniques.
+
+Appareillage électrique
+Le choix et la mise en œuvre de l'appareillage électrique doivent tenir compte des influences externes.
+
+Les dispositifs de protection, de commande, et de sectionnement doivent être conformes aux normes de sécurité.
+
+Circuits de mesure
+Les circuits de mesure doivent respecter les normes de sécurité.
+
+Les transformateurs de mesure doivent être choisis pour garantir la sécurité des appareils connectés.
+
+Mises à la terre et conducteurs de protection
+Les installations de mise à la terre doivent garantir la sécurité des personnes et des biens.
+
+Les matériaux utilisés doivent résister aux influences mécaniques et chimiques.
+
+Conducteurs de Terre et Température
+Les conducteurs de terre sont classés selon leur matériau et leur section, avec des courants admissibles variant selon la température.
+
+Droite 1 : Cuivre, nu ou avec revêtement de zinc, applicable à 300 °C.
+Droite 2 : Aluminium, applicable à 300 °C.
+Droite 3 : Cuivre, étamé ou gainé de plomb, applicable à 150 °C.
+Droite 4 : Acier galvanisé, applicable à 300 °C.
+Tableau 5.9 : Facteurs de correction de température allant de 1,2 à 0,6 pour des températures de 400 °C à 100 °C.
+
+Réalisation des Prises de Terre
+Les prises de terre doivent être réalisées selon des normes spécifiques pour assurer leur efficacité et leur sécurité.
+
+Les électrodes de terre horizontales doivent être enfouies à au moins 0,6 m de profondeur.
+Les électrodes verticales doivent être espacées d'au moins leur longueur.
+Protection contre les couples galvaniques est nécessaire lors de connexions de différents matériaux.
+Les matériaux des électrodes doivent respecter les dimensions minimales selon le tableau 5.10.
+
+Méthodes de Réalisation des Prises de Terre
+Différentes méthodes peuvent être utilisées pour établir des prises de terre efficaces.
+
+Boucle de terre d’au moins 8 m de long, de préférence sous les parois extérieures des bâtiments.
+Au moins quatre piquets de terre d’une longueur minimale de 1,5 m, enfoncés verticalement ou obliquement.
+Électrode de terre profonde d’au moins 6 m de longueur.
+Réseau maillé d’au moins 200 m² avec au moins 9 mailles.
+
+Mise à la Terre Globale
+La mise à la terre globale vise à réduire les élévations de potentiel dans les terres locales.
+
+Longueur minimale de câbles avec effet de terre d’au moins 1 km ou au moins 20 installations de mise à terre interconnectées.
+La continuité électrique des parties métalliques doit être assurée.
+La formule pour la longueur des conducteurs de protection est L ≤ 500 m / (S/16 mm²).
+
+Réalisation des Conducteurs de Protection
+Les conducteurs de protection doivent être choisis et installés selon des normes strictes pour garantir la sécurité.
+
+Sections minimales : 16 mm² pour cuivre apparent, 35 mm² pour cuivre non protégé, 50 mm² pour aluminium ou acier.
+Conducteurs en cuivre de 4 mm² pour certaines pièces métalliques comme les garde-corps.
+Protection contre les détériorations mécaniques et chimiques est essentielle.
+
+Contrôles des Installations Électriques
+Les installations électriques à haute tension doivent être contrôlées pour assurer leur conformité.
+
+Contrôles de conformité avant mise en usage et visites de contrôle annuelles sont obligatoires.
+Les contrôles incluent des vérifications administratives, visuelles, par essais et par mesures.
+Les rapports de contrôle doivent être conservés pendant au moins cinq ans.
+
+Protection Contre les Risques d'Explosion
+Des mesures spécifiques doivent être prises pour protéger les installations électriques dans des atmosphères explosives.
+
+Classification des emplacements dangereux en zones 0, 1, 2, 20, 21, et 22 selon la fréquence et la durée de présence d'atmosphères explosives.
+Choix d'appareils électriques adaptés aux zones dangereuses, avec des exigences spécifiques selon la zone.
+Installation et entretien des équipements doivent être réalisés par du personnel qualifié.
+
+Installation et Entretien des Équipements Électriques
+L'installation et l'entretien des équipements électriques doivent respecter des normes strictes pour éviter les risques.
+
+Les machines doivent être installées pour permettre une dissipation adéquate de la chaleur.
+Les réparations doivent être effectuées par le fabricant ou un atelier spécialisé.
+Les canalisations électriques doivent être protégées contre les influences mécaniques et chimiques.
+
+Travaux d'installation et de maintenance électrique
+Les travaux sur les installations électriques doivent respecter des normes strictes pour garantir la sécurité.
+
+Les travaux d'installation, de réglage, d'entretien et de réparation ne peuvent pas être effectués sur des parties actives sous tension.
+Des mesures doivent être prises pour éviter l'accumulation de charges électrostatiques, avec une résistance de surface ≤ 10^9 Ω.
+La résistance entre les enveloppes métalliques et les éléments conducteurs étrangers doit être ≤ 10^6 Ω.
+
+Protection contre les décharges électrostatiques
+Des mesures spécifiques sont nécessaires pour prévenir les décharges électrostatiques.
+
+La résistance de surface des enveloppes de machines doit être ≤ 10^9 Ω.
+La résistance entre les enveloppes métalliques et les éléments conducteurs doit être ≤ 10^6 Ω.
+
+Protection cathodique en zones à risque
+La protection cathodique doit être gérée avec précaution dans les zones à risque d'explosion.
+
+Les parties métalliques avec protection cathodique sont considérées comme potentiellement dangereuses.
+Aucune protection cathodique ne doit être prévue pour les parties métalliques en zone 0, sauf si spécifiquement conçue.
+Les parties isolantes nécessaires doivent être localisées à l'extérieur de l'emplacement dangereux.
+
+Exceptions pour le choix du matériel électrique
+Des exceptions peuvent être faites pour l'utilisation de matériel électrique non conforme dans des circonstances spéciales.
+
+Le matériel non conforme peut être utilisé si les risques sont identifiés et évalués par un responsable compétent.
+Des mesures de précaution doivent garantir l'absence d'atmosphère explosive lors de l'utilisation de ce matériel. ​
+Des contrôles doivent être effectués avant et pendant les travaux pour assurer la sécurité. ​
+
+Installations électriques existantes et leur conformité
+Les installations électriques existantes doivent être mises à jour pour respecter les nouvelles normes.
+
+Les installations réalisées avant l'entrée en vigueur du nouveau règlement doivent être conformes aux prescriptions actuelles.
+Les infractions constatées doivent être résolues par le propriétaire ou le gestionnaire de l'installation.
+
+Dispositions dérogatoires pour anciennes installations
+Des dérogations sont possibles pour les anciennes installations électriques dans certains lieux.
+
+Les installations doivent protéger contre les risques électriques et non électriques.
+L'accès doit être réservé aux personnes averties ou qualifiées si les risques ne peuvent être éliminés. ​
+
+Visites de contrôle des installations électriques
+Des visites de contrôle régulières sont nécessaires pour assurer la conformité des installations électriques.
+
+Les visites doivent être effectuées par un organisme agréé et vérifier la conformité aux prescriptions en vigueur.
+Les rapports de contrôle doivent être conservés pendant au moins cinq ans.
+
+Devoirs du propriétaire et gestionnaire d'installation
+Le propriétaire ou le gestionnaire a des responsabilités claires concernant la sécurité des installations électriques.
+
+Ils doivent fournir les documents nécessaires pour les contrôles de conformité.
+Ils doivent assurer l'entretien et documenter les interventions réalisées.
+
+Travaux aux installations électriques
+Tous les travaux sur les installations électriques doivent suivre des procédures de sécurité strictes. ​
+
+Une estimation des risques doit être réalisée avant tout travail. ​
+Les travaux doivent être sous la responsabilité d'un chargé de l'installation et d'un chargé des travaux. ​
+
+Précautions pour travaux sous tension
+Des précautions spécifiques sont nécessaires pour les travaux effectués sous tension. ​
+
+Seules les personnes formées peuvent effectuer des travaux sous tension.
+Des mesures de protection doivent être mises en place pour éviter les chocs électriques. ​
+
+Signalisation et interdictions
+Des panneaux de signalisation doivent être utilisés pour avertir des dangers électriques.
+
+Des panneaux d'avertissement et d'interdiction doivent être clairement visibles.
+Il est interdit de supprimer ou d'altérer les protections électriques.

@@ -1,0 +1,51 @@
+{
+  "Q_DIFF_01": {
+    "id":    "Q_DIFF_01",
+    "texte": "Le différentiel déclenche-t-il immédiatement à la mise sous tension (sans appareil branché) ?",
+    "type":  "OUI_NON"
+  },
+  "Q_DIFF_02": {
+    "id":    "Q_DIFF_02",
+    "texte": "Le déclenchement se produit-il lorsqu'un appareil spécifique est branché ou mis en marche ?",
+    "type":  "OUI_NON"
+  },
+  "Q_SDB_01": {
+    "id":    "Q_SDB_01",
+    "texte": "La salle de bains est-elle protégée par un différentiel 30 mA dédié (circuit exclusif SDB) ?",
+    "type":  "OUI_NON"
+  },
+  "Q_PRISES_01": {
+    "id":    "Q_PRISES_01",
+    "texte": "Des appareils à forte consommation (four, micro-ondes, bouilloire, lave-linge) sont-ils branchés sur le circuit prises concerné ?",
+    "type":  "OUI_NON"
+  },
+  "Q_VE_01": {
+    "id":    "Q_VE_01",
+    "texte": "Quel est le type de différentiel protégeant la borne de recharge véhicule électrique ?",
+    "type":  "CHOIX",
+    "choix": ["Type AC", "Type A", "Type B", "Inconnu"]
+  },
+  "Q_TERRE_01": {
+    "id":    "Q_TERRE_01",
+    "texte": "Quel est le type de prise de terre installée dans ce logement ?",
+    "type":  "CHOIX",
+    "choix": ["Boucle en fond de fouille", "Piquet(s) de terre", "Inconnu"]
+  },
+  "Q_TERRE_02": {
+    "id":    "Q_TERRE_02",
+    "texte": "Connaissez-vous la valeur mesurée de la résistance de terre (en ohms) ?",
+    "type":  "TEXTE"
+  },
+  "Q_CABLE_01": {
+    "id":    "Q_CABLE_01",
+    "texte": "Quelle est la section des câbles utilisés sur le circuit concerné ?",
+    "type":  "CHOIX",
+    "choix": ["1,5 mm²", "2,5 mm²", "4 mm²", "6 mm² ou plus", "Inconnu"]
+  },
+  "Q_CABLE_02": {
+    "id":    "Q_CABLE_02",
+    "texte": "Quel est le calibre du disjoncteur protégeant ce circuit ?",
+    "type":  "CHOIX",
+    "choix": ["10 A", "16 A", "20 A", "25 A", "32 A", "Inconnu"]
+  }
+}

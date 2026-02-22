@@ -1,0 +1,106 @@
+{
+  "version": "2025.1",
+  "rules": [
+    {
+      "code": "SDB-030-2025",
+      "titre": "Protection différentielle 30mA SDB obligatoire (≥ 2025-03-01)",
+      "applicable": { "from": "2025-03-01" },
+      "if": {
+        "op": "AND",
+        "exprs": [
+          { "op": "EQ", "path": "sdb_presente",      "value": true  },
+          { "op": "EQ", "path": "sdb_protegee_30mA", "value": false }
+        ]
+      },
+      "niveau": "BLOQUANT",
+      "message": "La salle de bains doit être protégée par un différentiel 30mA dédié (RGIE 2025 art. 7.103.3).",
+      "correction": "Installer un différentiel 30mA dédié pour le circuit salle de bains.",
+      "tags": ["SDB", "DIFF_30MA"]
+    },
+    {
+      "code": "SDB-EQUI-001",
+      "titre": "Liaison équipotentielle SDB manquante",
+      "if": {
+        "op": "AND",
+        "exprs": [
+          { "op": "EQ", "path": "sdb_presente",             "value": true  },
+          { "op": "EQ", "path": "sdb_equipotentielle_ok",   "value": false }
+        ]
+      },
+      "niveau": "MAJEUR",
+      "message": "La liaison équipotentielle supplémentaire (LES) de la salle de bains est absente ou non conforme (RGIE art. 7.103.3.2).",
+      "correction": "Réaliser la LES en raccordant toutes les masses métalliques (baignoire, tuyauterie, boîtier de douche) à la borne PE du tableau.",
+      "tags": ["SDB", "EQUIPOTENTIELLE"]
+    },
+    {
+      "code": "TERRE-001",
+      "titre": "Résistance de terre trop élevée (> 30 Ω)",
+      "if": {
+        "op": "GT",
+        "path": "terre_resistance_ohm",
+        "value": 30
+      },
+      "niveau": "MAJEUR",
+      "message": "La résistance de terre dépasse 30 Ω, ce qui compromet la protection des personnes par coupure automatique (RGIE art. 5.4.3.1).",
+      "correction": "Améliorer la prise de terre (piquets supplémentaires, boucle de fondation) jusqu'à atteindre ≤ 30 Ω, idéalement ≤ 10 Ω.",
+      "tags": ["TERRE", "PROTECTION"]
+    },
+    {
+      "code": "CABLE-001",
+      "titre": "Section câble insuffisante pour le calibre du disjoncteur",
+      "if": {
+        "op": "AND",
+        "exprs": [
+          { "op": "LTE", "path": "section_min_detectee_mm2",   "value": 1.5 },
+          { "op": "GT",  "path": "disjoncteur_max_detecte_A",  "value": 16  }
+        ]
+      },
+      "niveau": "BLOQUANT",
+      "message": "Un câble de section 1,5 mm² est protégé par un disjoncteur de calibre supérieur à 16 A — risque d'incendie par échauffement du conducteur (RGIE art. 5.2.3).",
+      "correction": "Remplacer le disjoncteur par un 16 A maximum, ou recâbler en 2,5 mm² si la charge le justifie.",
+      "tags": ["CABLE", "INCENDIE", "SURPROTECTION"]
+    },
+    {
+      "code": "PRISES-2023",
+      "titre": "Nombre maximal de prises par circuit dépassé (≥ 2023-06-01)",
+      "applicable": { "from": "2023-06-01" },
+      "if": {
+        "op": "GT",
+        "path": "max_prises_par_circuit",
+        "value": 8
+      },
+      "niveau": "MAJEUR",
+      "message": "Plus de 8 prises de courant sont raccordées sur un même circuit (RGIE 2023 art. 7.4.1.2.2).",
+      "correction": "Diviser le circuit en plusieurs circuits de 8 prises maximum chacun.",
+      "tags": ["PRISES", "CIRCUIT"]
+    },
+    {
+      "code": "VE-001",
+      "titre": "Différentiel de type AC inadapté pour borne de recharge VE",
+      "if": {
+        "op": "AND",
+        "exprs": [
+          { "op": "EQ", "path": "borne_ve_presente", "value": true },
+          { "op": "EQ", "path": "type_diff_borne",   "value": "AC" }
+        ]
+      },
+      "niveau": "MAJEUR",
+      "message": "Un différentiel de type AC ne détecte pas les courants continus résiduels produits par les chargeurs de véhicule électrique (RGIE / NF C 15-100 art. 7.11).",
+      "correction": "Remplacer le différentiel AC par un type A (ou B pour onduleurs triphasés) sur le circuit borne VE.",
+      "tags": ["VE", "DIFF_TYPE", "PROTECTION"]
+    },
+    {
+      "code": "DIFF-GENERAL-001",
+      "titre": "Différentiel général absent",
+      "if": {
+        "op": "EQ",
+        "path": "diff_general_present",
+        "value": false
+      },
+      "niveau": "BLOQUANT",
+      "message": "Aucun différentiel général n'est présent en tête de tableau (RGIE art. 7.1.3).",
+      "correction": "Installer un différentiel général 300 mA (ou 500 mA) en tête de tableau électrique.",
+      "tags": ["DIFF_GENERAL", "PROTECTION"]
+    }
+  ]
+}
